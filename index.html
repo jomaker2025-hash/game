@@ -1,0 +1,2660 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Misión Musical Espacial</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<!-- Estilos de Tailwind CSS ya compilados e incluidos aquí (así el juego se ve bien sin internet) -->
+  <style>/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-space-y-reverse:0;--tw-border-style:solid;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-outline-style:solid;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial;--tw-backdrop-blur:initial;--tw-backdrop-brightness:initial;--tw-backdrop-contrast:initial;--tw-backdrop-grayscale:initial;--tw-backdrop-hue-rotate:initial;--tw-backdrop-invert:initial;--tw-backdrop-opacity:initial;--tw-backdrop-saturate:initial;--tw-backdrop-sepia:initial;--tw-ease:initial}}}@layer theme{:root,:host{--font-sans:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--color-amber-200:oklch(92.4% .12 95.746);--color-emerald-50:oklch(97.9% .021 166.113);--color-emerald-200:oklch(90.5% .093 164.15);--color-emerald-300:oklch(84.5% .143 164.978);--color-cyan-50:oklch(98.4% .019 200.873);--color-cyan-100:oklch(95.6% .045 203.388);--color-cyan-200:oklch(91.7% .08 205.041);--color-cyan-300:oklch(86.5% .127 207.078);--color-cyan-400:oklch(78.9% .154 211.53);--color-cyan-900:oklch(39.8% .07 227.392);--color-fuchsia-200:oklch(90.3% .076 319.62);--color-fuchsia-300:oklch(83.3% .145 321.434);--color-rose-300:oklch(81% .117 11.638);--color-slate-100:oklch(96.8% .007 247.896);--color-slate-200:oklch(92.9% .013 255.508);--color-slate-300:oklch(86.9% .022 252.894);--color-slate-400:oklch(70.4% .04 256.788);--color-slate-500:oklch(55.4% .046 257.417);--color-slate-700:oklch(37.2% .044 257.287);--color-slate-950:oklch(12.9% .042 264.695);--color-white:#fff;--spacing:.25rem;--container-xs:20rem;--container-3xl:48rem;--text-xs:.75rem;--text-xs--line-height:calc(1/.75);--text-sm:.875rem;--text-sm--line-height:calc(1.25/.875);--text-base:1rem;--text-base--line-height:calc(1.5/1);--text-lg:1.125rem;--text-lg--line-height:calc(1.75/1.125);--text-xl:1.25rem;--text-xl--line-height:calc(1.75/1.25);--text-2xl:1.5rem;--text-2xl--line-height:calc(2/1.5);--text-3xl:1.875rem;--text-3xl--line-height:calc(2.25/1.875);--text-4xl:2.25rem;--text-4xl--line-height:calc(2.5/2.25);--text-5xl:3rem;--text-5xl--line-height:1;--text-6xl:3.75rem;--text-6xl--line-height:1;--text-7xl:4.5rem;--text-7xl--line-height:1;--text-8xl:6rem;--text-8xl--line-height:1;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-extrabold:800;--font-weight-black:900;--tracking-widest:.1em;--leading-tight:1.25;--leading-snug:1.375;--leading-relaxed:1.625;--radius-xl:.75rem;--radius-2xl:1rem;--radius-3xl:1.5rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab,currentcolor 50%,transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}}@layer components;@layer utilities{.visible{visibility:visible}.sr-only{clip:rect(0,0,0,0);white-space:nowrap;border-width:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.absolute{position:absolute}.relative{position:relative}.-top-5{top:calc(var(--spacing)*-5)}.top-2{top:calc(var(--spacing)*2)}.top-3{top:calc(var(--spacing)*3)}.right-3{right:calc(var(--spacing)*3)}.bottom-3{bottom:calc(var(--spacing)*3)}.left-1{left:calc(var(--spacing)*1)}.left-3{left:calc(var(--spacing)*3)}.z-10{z-index:10}.mx-auto{margin-inline:auto}.my-4{margin-block:calc(var(--spacing)*4)}.mt-1{margin-top:calc(var(--spacing)*1)}.mt-2{margin-top:calc(var(--spacing)*2)}.mt-3{margin-top:calc(var(--spacing)*3)}.mt-4{margin-top:calc(var(--spacing)*4)}.mt-5{margin-top:calc(var(--spacing)*5)}.mt-6{margin-top:calc(var(--spacing)*6)}.mb-2{margin-bottom:calc(var(--spacing)*2)}.mb-3{margin-bottom:calc(var(--spacing)*3)}.mb-4{margin-bottom:calc(var(--spacing)*4)}.ml-1{margin-left:calc(var(--spacing)*1)}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.table{display:table}.h-3{height:calc(var(--spacing)*3)}.h-5{height:calc(var(--spacing)*5)}.h-12{height:calc(var(--spacing)*12)}.h-16{height:calc(var(--spacing)*16)}.h-20{height:calc(var(--spacing)*20)}.h-72{height:calc(var(--spacing)*72)}.h-full{height:100%}.min-h-\[1\.5em\]{min-height:1.5em}.min-h-\[1\.6em\]{min-height:1.6em}.min-h-\[3em\]{min-height:3em}.min-h-\[132px\]{min-height:132px}.min-h-screen{min-height:100vh}.w-5{width:calc(var(--spacing)*5)}.w-16{width:calc(var(--spacing)*16)}.w-full{width:100%}.max-w-3xl{max-width:var(--container-3xl)}.max-w-xs{max-width:var(--container-xs)}.min-w-0{min-width:calc(var(--spacing)*0)}.flex-1{flex:1}.flex-none{flex:none}.transform{transform:var(--tw-rotate-x,)var(--tw-rotate-y,)var(--tw-rotate-z,)var(--tw-skew-x,)var(--tw-skew-y,)}.cursor-pointer{cursor:pointer}.list-decimal{list-style-type:decimal}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.items-start{align-items:flex-start}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.gap-1{gap:calc(var(--spacing)*1)}.gap-1\.5{gap:calc(var(--spacing)*1.5)}.gap-2{gap:calc(var(--spacing)*2)}.gap-3{gap:calc(var(--spacing)*3)}.gap-4{gap:calc(var(--spacing)*4)}:where(.space-y-1>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing)*1)*var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing)*1)*calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-2>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing)*2)*var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing)*2)*calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-3>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing)*3)*var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing)*3)*calc(1 - var(--tw-space-y-reverse)))}.truncate{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:var(--radius-2xl)}.rounded-3xl{border-radius:var(--radius-3xl)}.rounded-\[2rem\]{border-radius:2rem}.rounded-full{border-radius:3.40282e38px}.rounded-xl{border-radius:var(--radius-xl)}.border{border-style:var(--tw-border-style);border-width:1px}.border-cyan-900{border-color:var(--color-cyan-900)}.bg-fuchsia-300{background-color:var(--color-fuchsia-300)}.bg-slate-700{background-color:var(--color-slate-700)}.p-3{padding:calc(var(--spacing)*3)}.p-4{padding:calc(var(--spacing)*4)}.p-5{padding:calc(var(--spacing)*5)}.p-6{padding:calc(var(--spacing)*6)}.px-1{padding-inline:calc(var(--spacing)*1)}.px-2{padding-inline:calc(var(--spacing)*2)}.px-2\.5{padding-inline:calc(var(--spacing)*2.5)}.px-3{padding-inline:calc(var(--spacing)*3)}.px-4{padding-inline:calc(var(--spacing)*4)}.px-5{padding-inline:calc(var(--spacing)*5)}.px-6{padding-inline:calc(var(--spacing)*6)}.px-7{padding-inline:calc(var(--spacing)*7)}.px-8{padding-inline:calc(var(--spacing)*8)}.px-10{padding-inline:calc(var(--spacing)*10)}.py-0{padding-block:calc(var(--spacing)*0)}.py-0\.5{padding-block:calc(var(--spacing)*.5)}.py-1{padding-block:calc(var(--spacing)*1)}.py-1\.5{padding-block:calc(var(--spacing)*1.5)}.py-2{padding-block:calc(var(--spacing)*2)}.py-2\.5{padding-block:calc(var(--spacing)*2.5)}.py-3{padding-block:calc(var(--spacing)*3)}.py-4{padding-block:calc(var(--spacing)*4)}.pb-2{padding-bottom:calc(var(--spacing)*2)}.pl-5{padding-left:calc(var(--spacing)*5)}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.font-sans{font-family:var(--font-sans)}.text-2xl{font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}.text-3xl{font-size:var(--text-3xl);line-height:var(--tw-leading,var(--text-3xl--line-height))}.text-4xl{font-size:var(--text-4xl);line-height:var(--tw-leading,var(--text-4xl--line-height))}.text-5xl{font-size:var(--text-5xl);line-height:var(--tw-leading,var(--text-5xl--line-height))}.text-6xl{font-size:var(--text-6xl);line-height:var(--tw-leading,var(--text-6xl--line-height))}.text-7xl{font-size:var(--text-7xl);line-height:var(--tw-leading,var(--text-7xl--line-height))}.text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-xl{font-size:var(--text-xl);line-height:var(--tw-leading,var(--text-xl--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.leading-none{--tw-leading:1;line-height:1}.leading-relaxed{--tw-leading:var(--leading-relaxed);line-height:var(--leading-relaxed)}.leading-snug{--tw-leading:var(--leading-snug);line-height:var(--leading-snug)}.leading-tight{--tw-leading:var(--leading-tight);line-height:var(--leading-tight)}.font-black{--tw-font-weight:var(--font-weight-black);font-weight:var(--font-weight-black)}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.font-extrabold{--tw-font-weight:var(--font-weight-extrabold);font-weight:var(--font-weight-extrabold)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-widest{--tw-tracking:var(--tracking-widest);letter-spacing:var(--tracking-widest)}.whitespace-nowrap{white-space:nowrap}.text-amber-200{color:var(--color-amber-200)}.text-cyan-50{color:var(--color-cyan-50)}.text-cyan-100{color:var(--color-cyan-100)}.text-cyan-200{color:var(--color-cyan-200)}.text-cyan-300{color:var(--color-cyan-300)}.text-cyan-300\/80{color:#53eafdcc}@supports (color:color-mix(in lab, red, red)){.text-cyan-300\/80{color:color-mix(in oklab,var(--color-cyan-300)80%,transparent)}}.text-emerald-50{color:var(--color-emerald-50)}.text-emerald-200{color:var(--color-emerald-200)}.text-emerald-300{color:var(--color-emerald-300)}.text-fuchsia-200{color:var(--color-fuchsia-200)}.text-fuchsia-300{color:var(--color-fuchsia-300)}.text-rose-300{color:var(--color-rose-300)}.text-slate-100{color:var(--color-slate-100)}.text-slate-200{color:var(--color-slate-200)}.text-slate-300{color:var(--color-slate-300)}.text-slate-400{color:var(--color-slate-400)}.text-slate-500{color:var(--color-slate-500)}.text-slate-950{color:var(--color-slate-950)}.text-white{color:var(--color-white)}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.accent-cyan-400{accent-color:var(--color-cyan-400)}.opacity-70{opacity:.7}.outline{outline-style:var(--tw-outline-style);outline-width:1px}.filter{filter:var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur,)var(--tw-backdrop-brightness,)var(--tw-backdrop-contrast,)var(--tw-backdrop-grayscale,)var(--tw-backdrop-hue-rotate,)var(--tw-backdrop-invert,)var(--tw-backdrop-opacity,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,);backdrop-filter:var(--tw-backdrop-blur,)var(--tw-backdrop-brightness,)var(--tw-backdrop-contrast,)var(--tw-backdrop-grayscale,)var(--tw-backdrop-hue-rotate,)var(--tw-backdrop-invert,)var(--tw-backdrop-opacity,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,visibility,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.ease-in{--tw-ease:var(--ease-in);transition-timing-function:var(--ease-in)}.ease-in-out{--tw-ease:var(--ease-in-out);transition-timing-function:var(--ease-in-out)}.ease-out{--tw-ease:var(--ease-out);transition-timing-function:var(--ease-out)}.select-none{-webkit-user-select:none;user-select:none}@media (min-width:40rem){.sm\:col-span-2{grid-column:span 2/span 2}.sm\:inline{display:inline}.sm\:h-20{height:calc(var(--spacing)*20)}.sm\:h-24{height:calc(var(--spacing)*24)}.sm\:h-80{height:calc(var(--spacing)*80)}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:gap-2{gap:calc(var(--spacing)*2)}.sm\:gap-3{gap:calc(var(--spacing)*3)}.sm\:p-4{padding:calc(var(--spacing)*4)}.sm\:p-6{padding:calc(var(--spacing)*6)}.sm\:p-7{padding:calc(var(--spacing)*7)}.sm\:px-3{padding-inline:calc(var(--spacing)*3)}.sm\:py-4{padding-block:calc(var(--spacing)*4)}.sm\:py-6{padding-block:calc(var(--spacing)*6)}.sm\:text-2xl{font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}.sm\:text-3xl{font-size:var(--text-3xl);line-height:var(--tw-leading,var(--text-3xl--line-height))}.sm\:text-4xl{font-size:var(--text-4xl);line-height:var(--tw-leading,var(--text-4xl--line-height))}.sm\:text-5xl{font-size:var(--text-5xl);line-height:var(--tw-leading,var(--text-5xl--line-height))}.sm\:text-6xl{font-size:var(--text-6xl);line-height:var(--tw-leading,var(--text-6xl--line-height))}.sm\:text-7xl{font-size:var(--text-7xl);line-height:var(--tw-leading,var(--text-7xl--line-height))}.sm\:text-8xl{font-size:var(--text-8xl);line-height:var(--tw-leading,var(--text-8xl--line-height))}.sm\:text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.sm\:text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.sm\:text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.sm\:text-xl{font-size:var(--text-xl);line-height:var(--tw-leading,var(--text-xl--line-height))}.sm\:text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}}}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-space-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-leading{syntax:"*";inherits:false}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-outline-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-blur{syntax:"*";inherits:false}@property --tw-brightness{syntax:"*";inherits:false}@property --tw-contrast{syntax:"*";inherits:false}@property --tw-grayscale{syntax:"*";inherits:false}@property --tw-hue-rotate{syntax:"*";inherits:false}@property --tw-invert{syntax:"*";inherits:false}@property --tw-opacity{syntax:"*";inherits:false}@property --tw-saturate{syntax:"*";inherits:false}@property --tw-sepia{syntax:"*";inherits:false}@property --tw-drop-shadow{syntax:"*";inherits:false}@property --tw-drop-shadow-color{syntax:"*";inherits:false}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-drop-shadow-size{syntax:"*";inherits:false}@property --tw-backdrop-blur{syntax:"*";inherits:false}@property --tw-backdrop-brightness{syntax:"*";inherits:false}@property --tw-backdrop-contrast{syntax:"*";inherits:false}@property --tw-backdrop-grayscale{syntax:"*";inherits:false}@property --tw-backdrop-hue-rotate{syntax:"*";inherits:false}@property --tw-backdrop-invert{syntax:"*";inherits:false}@property --tw-backdrop-opacity{syntax:"*";inherits:false}@property --tw-backdrop-saturate{syntax:"*";inherits:false}@property --tw-backdrop-sepia{syntax:"*";inherits:false}@property --tw-ease{syntax:"*";inherits:false}</style>
+  <!-- Tipografías: Orbitron (futurista) para títulos y Nunito (muy legible) para textos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
+  <style>
+    html { background: #03040f; color-scheme: dark; }
+    main { padding-left: max(16px, env(safe-area-inset-left, 0px)) !important; padding-right: max(16px, env(safe-area-inset-right, 0px)) !important; }
+    html, body { min-height: 100%; }
+    body {
+      font-family: "Nunito", system-ui, sans-serif;
+      background:
+        radial-gradient(ellipse at 15% 20%, rgba(124, 58, 237, .35), transparent 55%),
+        radial-gradient(ellipse at 85% 80%, rgba(14, 165, 233, .28), transparent 55%),
+        radial-gradient(ellipse at 50% 50%, #0b1033, #03040f 75%);
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+    .orbitron { font-family: "Orbitron", "Nunito", sans-serif; letter-spacing: .04em; }
+
+    /* ---------- Campo de estrellas (3 capas a distinta velocidad) ---------- */
+    .estrellas { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+    .estrellas::before, .estrellas::after, .estrellas span { content: ""; position: absolute; inset: -100% 0 0 0; }
+    .estrellas::before {
+      background-image:
+        radial-gradient(1px 1px at 20px 30px, #fff, transparent),
+        radial-gradient(1px 1px at 120px 80px, #cfe8ff, transparent),
+        radial-gradient(1px 1px at 200px 160px, #fff, transparent),
+        radial-gradient(1px 1px at 60px 200px, #fff, transparent),
+        radial-gradient(1px 1px at 260px 240px, #e0d4ff, transparent);
+      background-size: 300px 300px; opacity: .7; animation: viajar 90s linear infinite;
+    }
+    .estrellas::after {
+      background-image:
+        radial-gradient(2px 2px at 50px 120px, #fff, transparent),
+        radial-gradient(2px 2px at 330px 40px, #a5f3fc, transparent),
+        radial-gradient(1.5px 1.5px at 220px 300px, #fff, transparent);
+      background-size: 420px 420px; animation: viajar 50s linear infinite, titilar 3s ease-in-out infinite alternate;
+    }
+    .estrellas span {
+      background-image: radial-gradient(2.5px 2.5px at 150px 150px, #fde68a, transparent),
+                        radial-gradient(2px 2px at 420px 380px, #fff, transparent);
+      background-size: 600px 600px; animation: viajar 30s linear infinite;
+    }
+    .estrellas.hiper::before, .estrellas.hiper::after, .estrellas.hiper span { animation-duration: 1.2s, 3s; }
+    @keyframes viajar { to { transform: translateY(50%); } }
+    @keyframes titilar { from { opacity: .45; } to { opacity: 1; } }
+
+    /* ---------- Tablero de la nave ---------- */
+    .tablero {
+      background: linear-gradient(160deg, rgba(30, 41, 89, .82), rgba(9, 13, 38, .92));
+      border: 2px solid rgba(34, 211, 238, .45);
+      box-shadow: 0 0 0 6px rgba(15, 23, 60, .9), 0 0 0 8px rgba(34, 211, 238, .25),
+                  0 0 60px rgba(34, 211, 238, .25), inset 0 0 40px rgba(34, 211, 238, .08);
+      backdrop-filter: blur(6px);
+    }
+    .tornillo { width: 10px; height: 10px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #cbd5e1, #475569); position: absolute; }
+    .pantalla-crt {
+      background: radial-gradient(ellipse at center, #062033 0%, #020c16 100%);
+      border: 2px solid rgba(34, 211, 238, .5);
+      box-shadow: inset 0 0 30px rgba(34, 211, 238, .25), 0 0 18px rgba(34, 211, 238, .2);
+      position: relative; overflow: hidden;
+    }
+    .pantalla-crt::after { /* líneas de escaneo de monitor antiguo */
+      content: ""; position: absolute; inset: 0; pointer-events: none;
+      background: repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0 1px, transparent 1px 3px);
+    }
+    .led { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .led-verde { background: #3dff9a; box-shadow: 0 0 8px #3dff9a; animation: parpadeo 1.6s infinite; }
+    .led-ambar { background: #ffb020; box-shadow: 0 0 8px #ffb020; animation: parpadeo 2.3s infinite .4s; }
+    .led-rojo  { background: #ff4d6d; box-shadow: 0 0 8px #ff4d6d; animation: parpadeo 1.1s infinite .2s; }
+    @keyframes parpadeo { 50% { opacity: .25; } }
+    .texto-neon {
+      background: linear-gradient(90deg, #a5f3fc, #f0abfc, #fde68a);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      filter: drop-shadow(0 0 12px rgba(165, 243, 252, .55));
+    }
+
+    /* ---------- Botones ---------- */
+    .boton-mision {
+      background: linear-gradient(180deg, #22d3ee, #0891b2);
+      box-shadow: 0 0 0 3px rgba(165, 243, 252, .5), 0 0 30px rgba(34, 211, 238, .8), 0 8px 0 #075e74;
+      animation: latido 1.8s ease-in-out infinite; transition: transform .1s;
+    }
+    .boton-mision:active { transform: translateY(6px); box-shadow: 0 0 0 3px rgba(165,243,252,.5), 0 0 30px rgba(34,211,238,.8), 0 2px 0 #075e74; }
+    .boton-mision:disabled { filter: grayscale(1) brightness(.6); animation: none; cursor: not-allowed; }
+    @keyframes latido { 50% { box-shadow: 0 0 0 6px rgba(165,243,252,.35), 0 0 55px rgba(34,211,238,1), 0 8px 0 #075e74; } }
+    .boton-control {
+      background: rgba(34, 211, 238, .1); border: 2px solid rgba(34, 211, 238, .55);
+      box-shadow: 0 0 12px rgba(34, 211, 238, .25); transition: background .15s, transform .1s;
+    }
+    .boton-control:hover { background: rgba(34, 211, 238, .22); }
+    .boton-control:active { transform: scale(.96); }
+    .boton-control.activo { background: rgba(61, 255, 154, .25); border-color: #3dff9a; }
+
+    /* Botón de cristal neón (el color se pasa con --c) */
+    .cristal {
+      --c: #fff; position: relative;
+      background: linear-gradient(160deg, rgba(255,255,255,.22), rgba(255,255,255,.04) 55%), color-mix(in srgb, var(--c) 22%, #0b1033);
+      border: 2px solid var(--c);
+      box-shadow: 0 0 16px color-mix(in srgb, var(--c) 60%, transparent), inset 0 0 18px color-mix(in srgb, var(--c) 35%, transparent);
+      text-shadow: 0 0 10px var(--c); transition: transform .12s, box-shadow .2s;
+    }
+    .cristal:hover { transform: translateY(-3px); box-shadow: 0 0 28px var(--c); }
+    .cristal:active { transform: scale(.95); }
+
+    /* ---------- Zum (el alienígena que cuenta la historia) ---------- */
+    .zum { font-size: 3.2rem; line-height: 1; animation: flotar 2.4s ease-in-out infinite alternate; filter: drop-shadow(0 0 12px #3dff9a); }
+    .globo { background: rgba(61, 255, 154, .1); border: 2px solid rgba(61, 255, 154, .5); position: relative; }
+    .globo::before {
+      content: ""; position: absolute; left: -11px; top: 22px;
+      border: 10px solid transparent; border-right-color: rgba(61, 255, 154, .5); border-left: 0;
+    }
+
+    /* ---------- Planetas ---------- */
+    .planeta-btn {
+      background: rgba(15, 23, 60, .65); border: 2px solid rgba(148, 163, 184, .25);
+      transition: transform .15s, border-color .2s, box-shadow .2s;
+    }
+    .planeta-btn:hover { transform: translateY(-4px); border-color: var(--c1); box-shadow: 0 0 25px color-mix(in srgb, var(--c1) 55%, transparent); }
+    .esfera {
+      width: 72px; height: 72px; border-radius: 50%; flex: none; position: relative;
+      background: radial-gradient(circle at 32% 30%, #fff8 0 8%, var(--c1) 30%, var(--c2) 75%, #0008 100%);
+      box-shadow: 0 0 25px color-mix(in srgb, var(--c1) 70%, transparent), inset -10px -10px 20px #0006;
+      display: grid; place-items: center; font-size: 2rem;
+      animation: girar 6s ease-in-out infinite alternate;
+    }
+    .esfera::after {
+      content: ""; position: absolute; inset: 40% -14%; border-radius: 50%;
+      border: 3px solid color-mix(in srgb, var(--c1) 70%, #fff); transform: rotate(-18deg); opacity: .7;
+    }
+    @keyframes girar { to { transform: rotate(10deg) translateY(-4px); } }
+    .nivel-btn { background: rgba(15, 23, 60, .7); border: 2px solid rgba(34, 211, 238, .45); transition: transform .12s; }
+    .nivel-btn:hover:not(:disabled) { transform: translateY(-3px); box-shadow: 0 0 20px rgba(34, 211, 238, .5); }
+    .nivel-btn:disabled { opacity: .45; cursor: not-allowed; border-color: rgba(148, 163, 184, .3); }
+
+    /* ---------- Arena del arcade ---------- */
+    #arena {
+      position: relative; overflow: hidden; touch-action: manipulation;
+      background:
+        radial-gradient(1px 1px at 10% 20%, #fff, transparent), radial-gradient(1px 1px at 70% 35%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 40% 70%, #a5f3fc, transparent), radial-gradient(1px 1px at 85% 80%, #fff, transparent),
+        radial-gradient(ellipse at 50% 120%, rgba(34, 211, 238, .25), transparent 60%), #020617;
+      border: 2px solid rgba(34, 211, 238, .4);
+    }
+    .zona-peligro { position: absolute; left: 0; right: 0; bottom: 64px; height: 2px; background: repeating-linear-gradient(90deg, #ff3355 0 10px, transparent 10px 18px); opacity: .6; }
+    .asteroide {
+      --c: #fff; position: absolute; top: 0; width: 76px; height: 76px; margin-left: -38px;
+      border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%;
+      background: radial-gradient(circle at 30% 30%, #6b7280, #374151 60%, #111827);
+      border: 3px solid var(--c);
+      box-shadow: 0 0 18px var(--c), inset -6px -8px 14px #0008;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: #fff; font-family: "Orbitron", sans-serif; font-weight: 900; text-shadow: 0 0 8px var(--c), 0 2px 2px #000;
+      cursor: pointer; user-select: none; will-change: transform;
+      animation: rodar 4s linear infinite alternate;
+    }
+    .asteroide .num { position: absolute; top: -4px; right: -2px; font-size: 10px; background: #020617; border: 1px solid var(--c); border-radius: 999px; padding: 0 5px; }
+    @keyframes rodar { to { border-radius: 54% 46% 58% 42% / 44% 52% 48% 56%; } }
+    .asteroide.ok { --c: #3dff9a; animation: estallar .6s ease-out forwards; }
+    .asteroide.mal { --c: #ff3355; animation: parpadeo-rojo .22s steps(2) 4; }
+    .asteroide.apagado { opacity: .25; }
+    @keyframes estallar { 50% { transform: var(--pos) scale(1.4); } 100% { transform: var(--pos) scale(1.8); opacity: 0; } }
+    @keyframes parpadeo-rojo { 50% { background: #ff3355; } }
+    #nave-arcade { position: absolute; bottom: 6px; left: 50%; font-size: 2.6rem; transform: translateX(-50%) rotate(-45deg); filter: drop-shadow(0 0 12px #22d3ee); transition: left .15s; }
+    .laser { position: absolute; height: 4px; background: linear-gradient(90deg, #a5f3fc, #22d3ee); box-shadow: 0 0 12px #22d3ee; transform-origin: 0 50%; border-radius: 4px; animation: laser .35s ease-out forwards; }
+    @keyframes laser { to { opacity: 0; } }
+    .boom { position: absolute; font-size: 3rem; margin: -24px 0 0 -24px; animation: boom .7s ease-out forwards; pointer-events: none; }
+    @keyframes boom { from { transform: scale(.3); } to { transform: scale(1.6); opacity: 0; } }
+
+    /* ---------- Laboratorio ---------- */
+    input[type=range].palanca { -webkit-appearance: none; appearance: none; width: 100%; height: 14px; border-radius: 999px; background: linear-gradient(90deg, #ff9f1c, #ffe14d, #3dff9a, #4dc3ff, #a78bfa); outline: none; }
+    input[type=range].palanca::-webkit-slider-thumb { -webkit-appearance: none; width: 34px; height: 34px; border-radius: 50%; background: #fff; border: 4px solid #22d3ee; box-shadow: 0 0 14px #22d3ee; cursor: pointer; }
+    input[type=range].palanca::-moz-range-thumb { width: 30px; height: 30px; border-radius: 50%; background: #fff; border: 4px solid #22d3ee; box-shadow: 0 0 14px #22d3ee; cursor: pointer; }
+    .reto { display: flex; align-items: center; gap: 8px; }
+    .reto .check { width: 24px; height: 24px; border-radius: 6px; border: 2px solid #64748b; display: grid; place-items: center; flex: none; font-size: 14px; }
+    .reto.hecho .check { border-color: #3dff9a; background: #3dff9a; color: #02130a; box-shadow: 0 0 10px #3dff9a; }
+    .reto.hecho { color: #bbf7d0; }
+    .escalon { transition: transform .1s, filter .1s; }
+    .escalon.sonando { transform: translateY(-6px) scale(1.05); filter: brightness(1.4); }
+    .celda { height: 46px; border: 2px dashed rgba(148, 163, 184, .35); border-radius: 10px; position: relative; }
+    .celda.pulso { border-color: #22d3ee; box-shadow: 0 0 12px #22d3ee; }
+    .bloque { position: absolute; top: 6px; bottom: 6px; border-radius: 8px; opacity: .25; transition: opacity .1s; }
+    .bloque.on { opacity: 1; box-shadow: 0 0 14px currentColor; }
+    .familia-card { perspective: 800px; }
+    .familia-card .frente, .familia-card .dorso { transition: opacity .3s; }
+
+    /* ---------- Rejilla de beats (pentagrama oculto) ---------- */
+    .rejilla { display: flex; gap: 6px; }
+    .rejilla .etiquetas { display: grid; grid-template-rows: repeat(5, 1fr); width: 46px; flex: none; }
+    .rejilla .etiquetas div { display: flex; align-items: center; justify-content: center; font-family: "Orbitron", sans-serif; font-weight: 900; font-size: 12px; border-radius: 8px; margin: 2px 0; color: #0b1033; }
+    .rejilla .area {
+      position: relative; flex: 1; height: 230px; border-radius: 12px; overflow: hidden; touch-action: none; cursor: pointer;
+      background-color: #020617;
+      background-image: linear-gradient(90deg, rgba(34,211,238,.18) 1px, transparent 1px), linear-gradient(0deg, rgba(34,211,238,.18) 1px, transparent 1px);
+      background-size: 12.5% 20%; border: 2px solid rgba(34,211,238,.45);
+    }
+    .rejilla .area::before { /* línea más fuerte cada 2 columnas = cada tiempo */
+      content: ""; position: absolute; inset: 0; pointer-events: none;
+      background-image: linear-gradient(90deg, rgba(240,171,252,.4) 2px, transparent 2px); background-size: 25% 100%;
+    }
+    .bloque-nota {
+      --c: #fff; position: absolute; border-radius: 8px; margin: 3px; pointer-events: none;
+      background: linear-gradient(180deg, color-mix(in srgb, var(--c) 80%, #fff), var(--c));
+      box-shadow: 0 0 12px var(--c), inset 0 0 10px rgba(255,255,255,.35); transition: filter .1s, transform .1s;
+    }
+    .bloque-nota.brilla { filter: brightness(1.7); transform: scaleY(1.12); }
+    .bloque-nota.mal { --c: #ff3355 !important; animation: parpadeo-rojo .22s steps(2) 4; }
+    .bloque-nota.pista-tiempo { background: rgba(148,163,184,.08); border: 2px dashed rgba(203,213,225,.55); box-shadow: none; }
+    .bloque-nota.solucion { background: transparent; border: 3px solid #3dff9a; box-shadow: 0 0 14px #3dff9a; }
+    .escaner {
+      position: absolute; top: 0; bottom: 0; width: 12.5%; display: none; pointer-events: none;
+      background: linear-gradient(90deg, rgba(34,211,238,.35), transparent); border-left: 3px solid #67e8f9; box-shadow: -4px 0 16px #22d3ee;
+    }
+    .escaner.enemigo { border-left-color: #ff3355; background: linear-gradient(90deg, rgba(255,51,85,.35), transparent); box-shadow: -4px 0 16px #ff3355; }
+    .pincel.activo { background: rgba(240,171,252,.25); border-color: #f0abfc; box-shadow: 0 0 14px #f0abfc; }
+    .capa { padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(148,163,184,.4); opacity: .4; }
+    .capa.on { opacity: 1; border-color: #3dff9a; color: #bbf7d0; box-shadow: 0 0 8px rgba(61,255,154,.6); }
+    .energia { height: 10px; border-radius: 999px; background: rgba(148,163,184,.25); overflow: hidden; }
+    .energia div { height: 100%; width: 0; background: linear-gradient(90deg, #22d3ee, #a855f7, #ff3355); transition: width .4s; }
+    .pad.golpe { transform: scale(.92); filter: brightness(1.7); }
+
+    /* ---------- Modo Sobrecarga: la cabina se pone morada y roja ---------- */
+    .tablero.sobrecarga {
+      border-color: #e879f9;
+      box-shadow: 0 0 0 6px rgba(60,10,60,.9), 0 0 0 8px rgba(239,68,68,.5), 0 0 80px rgba(217,70,239,.6), inset 0 0 60px rgba(239,68,68,.25);
+      animation: sobrecarga .45s ease-in-out infinite alternate;
+    }
+    @keyframes sobrecarga { to { box-shadow: 0 0 0 6px rgba(60,10,60,.9), 0 0 0 8px rgba(217,70,239,.7), 0 0 110px rgba(239,68,68,.7), inset 0 0 70px rgba(217,70,239,.3); } }
+    .aviso-sobrecarga { display: none; }
+    .tablero.sobrecarga .aviso-sobrecarga { display: block; }
+
+    /* ---------- Lluvia de Meteoros ---------- */
+    #met-canvas { height: 430px; background: #020617; border: 2px solid rgba(34,211,238,.45); touch-action: none; }
+    .met-pad { touch-action: none; }
+    .met-pad.golpe { transform: scale(.92); filter: brightness(1.8); }
+    .met-pad.error { animation: parpadeo-rojo .22s steps(2) 3; }
+    .modo-met.activo { background: rgba(240,171,252,.25); border-color: #f0abfc; box-shadow: 0 0 14px #f0abfc; }
+    @media (max-width: 480px) { #met-canvas { height: 380px; } }
+
+    /* ---------- Ventana de confirmación ---------- */
+    .modal { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(3, 4, 15, .75); }
+    .modal[hidden] { display: none; }
+    .modal-caja { width: min(100%, 420px); animation: aparecer .25s ease-out both; }
+
+    /* ---------- Otros efectos ---------- */
+    .temblor { animation: temblor .5s cubic-bezier(.36,.07,.19,.97) both; }
+    @keyframes temblor {
+      10%, 90% { transform: translate(-2px, 1px) rotate(-.3deg); }
+      20%, 80% { transform: translate(5px, -2px) rotate(.4deg); }
+      30%, 50%, 70% { transform: translate(-9px, 2px) rotate(-.6deg); }
+      40%, 60% { transform: translate(9px, -1px) rotate(.6deg); }
+    }
+    .alerta-roja { animation: alerta .5s ease-out; }
+    @keyframes alerta { 0% { box-shadow: inset 0 0 0 9999px rgba(255, 51, 85, .25); } }
+    .flotar { animation: flotar 3s ease-in-out infinite alternate; }
+    @keyframes flotar { to { transform: translateY(-12px) rotate(-4deg); } }
+    .aparecer { animation: aparecer .45s ease-out both; }
+    @keyframes aparecer { from { opacity: 0; transform: translateY(16px) scale(.98); } }
+    .pip { width: 100%; height: 10px; border-radius: 999px; background: rgba(148, 163, 184, .25); }
+    .pip.actual { background: #22d3ee; box-shadow: 0 0 10px #22d3ee; }
+    .pip.ok { background: #3dff9a; box-shadow: 0 0 10px #3dff9a; }
+    .pip.no { background: #ff3355; box-shadow: 0 0 10px #ff3355; }
+    .racha-on { color: #ffb020; text-shadow: 0 0 12px #ff7a00; }
+    .fragmento { height: 34px; border-radius: 10px; border: 2px solid rgba(148, 163, 184, .35); display: grid; place-items: center; font-size: 1.1rem; }
+    .fragmento.ok { border-color: #3dff9a; background: rgba(61, 255, 154, .18); box-shadow: 0 0 12px rgba(61, 255, 154, .5); }
+    .fragmento.sonando { background: #3dff9a; color: #02130a; }
+    #despegue { position: fixed; inset: 0; z-index: 50; display: none; place-items: center; background: rgba(3, 4, 15, .55); }
+    #despegue.activo { display: grid; }
+    #despegue .cohete { font-size: 5rem; animation: cruzar 1.5s ease-in forwards; }
+    @keyframes cruzar {
+      0% { transform: translate(-45vw, 30vh) scale(.6); }
+      60% { transform: translate(0, 0) scale(1.3); }
+      100% { transform: translate(55vw, -45vh) scale(.4); opacity: 0; }
+    }
+    .confeti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 40; }
+    .confeti i { position: absolute; top: -20px; width: 9px; height: 14px; border-radius: 3px; animation: caer 1.8s ease-in forwards; }
+    @keyframes caer { to { transform: translateY(110vh) rotate(600deg); } }
+    @media (max-width: 480px) {
+      .asteroide { width: 62px; height: 62px; margin-left: -31px; font-size: 13px; }
+      .zum { font-size: 2.6rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition: none !important; }
+    }
+  </style>
+<style>body{color:#f1f5f9;-webkit-font-smoothing:antialiased;}</style>
+<div class="estrellas" id="estrellas" aria-hidden="true"><span></span></div>
+  <div class="confeti" id="confeti" aria-hidden="true"></div>
+  <div id="despegue" aria-live="polite">
+    <div class="text-center">
+      <div class="cohete" aria-hidden="true">🚀</div>
+      <p id="despegue-texto" class="orbitron text-xl sm:text-3xl font-black text-cyan-100 mt-2"></p>
+    </div>
+  </div>
+
+  <main class="relative z-10 min-h-screen flex items-center justify-center p-3 sm:p-6">
+    <div id="nave" class="tablero relative w-full max-w-3xl rounded-[2rem] p-4 sm:p-7">
+      <i class="tornillo top-3 left-3"></i><i class="tornillo top-3 right-3"></i>
+      <i class="tornillo bottom-3 left-3"></i><i class="tornillo bottom-3 right-3"></i>
+      <div class="flex items-center justify-between text-[11px] sm:text-xs orbitron text-cyan-300/80 px-3 mb-4">
+        <span class="flex items-center gap-2"><i class="led led-verde"></i> SISTEMAS OK</span>
+        <span id="badge-profe" class="hidden text-amber-200">🔓 MODO PROFESOR</span>
+        <span id="titulo-nave" class="hidden sm:inline">NAVE ARMONÍA · GALAXIA MUSICAL</span>
+        <span class="flex items-center gap-2">
+          <button id="btn-sonido" class="boton-control rounded-full px-2.5 py-0.5 text-sm" aria-label="Silenciar el sonido" title="Silenciar el sonido">🔊</button>
+          <i class="led led-ambar"></i><i class="led led-rojo"></i>
+        </span>
+      </div>
+
+      <!-- ================= 1. INICIO ================= -->
+      <section id="pantalla-inicio" class="aparecer text-center px-1 pb-2">
+        <div class="text-6xl sm:text-7xl flotar select-none mt-2" aria-hidden="true">🚀</div>
+        <h1 class="orbitron texto-neon text-4xl sm:text-6xl font-black leading-tight mt-2">Misión Musical Espacial</h1>
+        <p class="mt-2 text-lg sm:text-2xl font-extrabold text-cyan-100">Para cadetes de 4.º a 7.º grado</p>
+
+        <div class="flex items-start gap-3 mt-5 text-left">
+          <div class="zum" aria-hidden="true">👽</div>
+          <div class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50">
+            <b class="text-emerald-300">Zum:</b> ¡Hola, cadete! Los <b>Piratas del Silencio</b> robaron la <b>Canción de Armonía</b> de mi planeta y escondieron sus 5 fragmentos en la galaxia. Cada planeta guarda un secreto de la música. ¿Me ayudas a recuperarla?
+          </div>
+        </div>
+
+        <div class="pantalla-crt rounded-2xl mt-5 p-4 text-left">
+          <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">▶ PLANETAS Y TEMAS</p>
+          <ul class="text-sm sm:text-lg leading-relaxed text-cyan-50 space-y-1">
+            <li>🪐 <b>4.º grado:</b> las notas Do, Re, Mi, Fa y Sol</li>
+            <li>🌋 <b>5.º grado:</b> sonidos graves y agudos, notas largas y cortas</li>
+            <li>💫 <b>6.º grado:</b> tempo rápido y lento</li>
+            <li>🥁 <b>7.º grado:</b> figuras rítmicas: blanca, negra y corchea</li>
+            <li>🎻 <b>Bonus para todos:</b> familias de instrumentos</li>
+            <li>🎹 <b>Modo arcade:</b> Lluvia de Meteoros, ¡toca canciones con las notas que caen!</li>
+          </ul>
+          <p class="text-sm sm:text-base text-slate-300 mt-3">En cada planeta: 🔬 <b>experimenta</b> en el laboratorio → 🎮 <b>supera</b> 3 niveles de 5 desafíos (¡en el Planeta Do‑Re‑Mi construyes tu propio beat!) → 🎵 <b>recupera</b> un fragmento de la canción.</p>
+        </div>
+
+        <button id="btn-iniciar" class="boton-mision orbitron mt-6 text-xl sm:text-2xl font-black text-slate-950 px-10 py-4 rounded-full">🚀 Iniciar Misión</button>
+        <div class="flex flex-wrap justify-center gap-2 mt-6">
+          <button id="btn-ayuda" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">❓ Cómo jugar</button>
+          <button id="btn-profe" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">🔒 Modo profesor</button>
+          <button id="btn-borrar-progreso" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">🗑️ Reiniciar progreso</button>
+        </div>
+        <p id="txt-ajustes" class="text-sm text-amber-200 font-bold mt-3 min-h-[1.5em]" aria-live="polite"></p>
+      </section>
+
+      <!-- ================= 1b. CÓMO JUGAR ================= -->
+      <section id="pantalla-ayuda" class="hidden px-1">
+        <h2 class="orbitron texto-neon text-2xl sm:text-4xl font-black text-center">❓ Cómo jugar</h2>
+        <div class="flex items-start gap-3 mt-4">
+          <div class="zum" aria-hidden="true">👽</div>
+          <div class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"><b class="text-emerald-300">Zum:</b> Tu misión es recuperar los 5 fragmentos de la <b>Canción de Armonía</b>. Cada planeta guarda uno. ¡Así se juega!</div>
+        </div>
+        <div class="space-y-3 mt-4 text-base sm:text-lg leading-relaxed text-cyan-50">
+          <div class="pantalla-crt rounded-2xl p-4">
+            <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">🗺️ PASO A PASO</p>
+            <ol class="list-decimal pl-5 space-y-1">
+              <li>Toca <b>🚀 Iniciar Misión</b> para abrir el mapa de la galaxia.</li>
+              <li>Elige el <b>planeta de tu grado</b> (4.º, 5.º, 6.º o 7.º) o el bonus de instrumentos.</li>
+              <li>Entra al <b>🔬 Laboratorio</b>: experimenta con el sonido y cumple los retos.</li>
+              <li>Juega el <b>Nivel 1</b>. Cada nivel tiene <b>5 desafíos</b>.</li>
+              <li>Si aciertas <b>3 o más de 5</b>, se desbloquea el siguiente nivel.</li>
+            </ol>
+          </div>
+          <div class="pantalla-crt rounded-2xl p-4">
+            <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">🎮 CÓMO SE RESPONDE</p>
+            <ul class="space-y-2">
+              <li>🪐 <b>Planeta Do‑Re‑Mi (4.º):</b> la nave enemiga toca un <b>Do</b> y luego una melodía. Escríbela en la rejilla (abajo = grave, arriba = agudo, bloque largo = nota larga) y toca <b>🚀 Devolver el ataque</b>. Tienes 2 intentos.</li>
+              <li>☄️ <b>Planetas Eco, Pulso, Ritmo y Orquesta:</b> escucha o mira la pantalla y toca el <b>asteroide</b> con la respuesta correcta antes de que llegue a la línea roja. También puedes usar las teclas <b>1 a 5</b>.</li>
+              <li>🎹 <b>Lluvia de Meteoros:</b> toca el carril de cada nota cuando el meteoro llegue a la línea de luz.</li>
+            </ul>
+          </div>
+          <div class="pantalla-crt rounded-2xl p-4">
+            <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">⭐ CÓMO SE GANAN PUNTOS</p>
+            <ul class="space-y-1">
+              <li>Cada respuesta correcta suma <b>1 acierto</b> (de 5) y <b>100 puntos</b>, más un bonus si respondes rápido.</li>
+              <li>Con <b>3 aciertos seguidos</b> entras en <b>🔥 Modo Sobrecarga</b>: ¡los puntos valen el doble!</li>
+              <li>Estrellas: 3 aciertos = ⭐, 4 = ⭐⭐, 5 = ⭐⭐⭐.</li>
+            </ul>
+          </div>
+          <div class="pantalla-crt rounded-2xl p-4">
+            <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">🏁 CÓMO TERMINA</p>
+            <ul class="space-y-1">
+              <li>Cada nivel termina después de los <b>5 desafíos</b> y te muestra tus aciertos, estrellas, puntos y rango.</li>
+              <li>Al ganar el <b>Nivel 3</b> de un planeta recuperas su <b>fragmento de la canción</b> 🎵.</li>
+              <li>Con los <b>5 fragmentos</b> escuchas la canción completa y ganas el certificado de <b>Guardián de la Galaxia Musical</b> 👑.</li>
+            </ul>
+          </div>
+          <div class="pantalla-crt rounded-2xl p-4">
+            <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">🛠️ BOTONES ÚTILES</p>
+            <ul class="space-y-1">
+              <li><b>🔊</b> (arriba a la derecha): silencia o activa el sonido.</li>
+              <li><b>⬅ Salir</b>: abandona el nivel y vuelve al planeta.</li>
+              <li><b>📡 Pistas</b>: en los primeros niveles te dejan comparar con sonidos de ejemplo.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <button id="btn-ayuda-volver" class="boton-mision orbitron text-lg font-black text-slate-950 px-8 py-3 rounded-full">⬅ Volver</button>
+        </div>
+      </section>
+
+      <!-- ================= 2. MAPA ================= -->
+      <section id="pantalla-mapa" class="hidden px-1">
+        <h2 class="orbitron texto-neon text-2xl sm:text-4xl font-black text-center">🌌 Mapa Galáctico</h2>
+        <p class="text-center text-base sm:text-lg text-slate-300 mt-1">Elige el planeta de tu grado</p>
+        <div class="pantalla-crt rounded-2xl mt-4 p-3">
+          <div class="flex items-center justify-between gap-2">
+            <p class="orbitron text-[11px] sm:text-xs text-cyan-300">🎵 CANCIÓN DE ARMONÍA · <span id="txt-fragmentos">0</span>/5</p>
+            <button id="btn-escuchar-cancion" class="boton-control orbitron rounded-full px-3 py-1 text-[11px] sm:text-xs font-bold text-cyan-100">▶ Escuchar</button>
+          </div>
+          <div id="fragmentos-mapa" class="grid grid-cols-5 gap-2 mt-2"></div>
+        </div>
+        <div id="btn-final-historia-wrap" class="hidden text-center mt-4">
+          <button id="btn-final-historia" class="boton-mision orbitron text-lg font-black text-slate-950 px-7 py-3 rounded-full">👽 Ver el final de la historia</button>
+        </div>
+        <div id="planetas" class="grid gap-3 mt-4 sm:grid-cols-2"></div>
+        <div class="flex flex-wrap justify-center gap-2 mt-5">
+          <button id="btn-volver-inicio" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">⬅ Inicio</button>
+          <button id="btn-ayuda-mapa" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">❓ Cómo jugar</button>
+        </div>
+      </section>
+
+      <!-- ================= 3. PLANETA (briefing + niveles) ================= -->
+      <section id="pantalla-planeta" class="hidden px-1">
+        <div class="flex items-center gap-4">
+          <div id="pl-esfera" class="esfera" style="width:88px;height:88px;font-size:2.6rem"></div>
+          <div>
+            <p id="pl-grado" class="orbitron text-cyan-300 text-xs sm:text-sm"></p>
+            <h2 id="pl-nombre" class="orbitron texto-neon text-2xl sm:text-4xl font-black leading-tight"></h2>
+            <p class="text-base sm:text-lg font-extrabold text-cyan-100">Tema: <span id="pl-tema"></span></p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 mt-5">
+          <div class="zum" aria-hidden="true">👽</div>
+          <div id="pl-zum" class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"></div>
+        </div>
+        <button id="btn-lab" class="cristal orbitron w-full rounded-2xl mt-5 p-4 text-left flex items-center gap-4" style="--c:#3dff9a">
+          <span class="text-4xl">🔬</span>
+          <span>
+            <span class="block text-lg sm:text-xl font-black text-white">Laboratorio</span>
+            <span id="lab-estado" class="block text-sm text-emerald-200 font-sans font-bold"></span>
+          </span>
+        </button>
+        <p class="orbitron text-cyan-300 text-xs sm:text-sm mt-5 mb-2">☄️ NIVELES DE LA MISIÓN · 5 ASTEROIDES CADA UNO</p>
+        <div id="niveles" class="grid gap-3 sm:grid-cols-3"></div>
+        <button id="btn-estudio" class="hidden cristal orbitron w-full rounded-2xl mt-4 p-4 text-left flex items-center gap-4" style="--c:#f0abfc">
+          <span class="text-4xl">🎚️</span>
+          <span>
+            <span class="block text-lg sm:text-xl font-black text-white">Estudio libre de beats</span>
+            <span id="estudio-estado" class="block text-sm text-fuchsia-200 font-sans font-bold"></span>
+          </span>
+        </button>
+        <div class="text-center mt-5">
+          <button id="btn-planeta-mapa" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">🌌 Volver al mapa</button>
+        </div>
+      </section>
+
+      <!-- ================= 4. LABORATORIO ================= -->
+      <section id="pantalla-lab" class="hidden px-1">
+        <p id="lab-planeta" class="orbitron text-cyan-300 text-xs sm:text-sm text-center"></p>
+        <h2 id="lab-titulo" class="orbitron texto-neon text-2xl sm:text-4xl font-black text-center"></h2>
+        <div class="flex items-start gap-3 mt-4">
+          <div class="zum" aria-hidden="true">👽</div>
+          <div id="lab-zum" class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"></div>
+        </div>
+        <div class="pantalla-crt rounded-2xl mt-4 p-3 sm:p-4">
+          <canvas id="osc-lab" class="w-full h-20 sm:h-24 block" aria-hidden="true"></canvas>
+          <div id="lab-contenido" class="relative z-10 mt-3"></div>
+        </div>
+        <div class="pantalla-crt rounded-2xl mt-4 p-3 sm:p-4">
+          <p class="orbitron text-cyan-300 text-xs sm:text-sm mb-2">🎯 RETOS DEL LABORATORIO</p>
+          <div id="lab-retos" class="space-y-2 text-base sm:text-lg font-bold"></div>
+        </div>
+        <div class="text-center mt-5">
+          <button id="btn-lab-listo" class="boton-mision orbitron text-lg sm:text-xl font-black text-slate-950 px-8 py-3 rounded-full" disabled>✅ ¡Entendí! Ir al nivel 1</button>
+          <div class="mt-3"><button id="btn-lab-salir" class="boton-control orbitron rounded-full px-5 py-2 text-xs sm:text-sm font-bold text-cyan-100">⬅ Volver al planeta</button></div>
+        </div>
+      </section>
+
+      <!-- ================= 5. JUEGO (arcade) ================= -->
+      <section id="pantalla-juego" class="hidden px-1">
+        <div class="mb-2"><button class="btn-salir-nivel boton-control orbitron rounded-full px-3 py-1.5 text-xs font-bold text-cyan-100">⬅ Salir</button></div>
+        <div class="flex items-center justify-between gap-2 orbitron">
+          <div class="text-xs sm:text-base text-cyan-200">ASTEROIDE <span id="txt-ronda" class="text-white text-lg sm:text-xl font-black">1</span>/5</div>
+          <div id="txt-nivel" class="text-[11px] sm:text-sm text-slate-300"></div>
+          <div class="text-xs sm:text-base text-amber-200">⭐ <span id="txt-puntos" class="text-white text-lg sm:text-xl font-black">0</span> <span id="txt-racha" class="ml-1 text-slate-500">🔥0</span></div>
+        </div>
+        <div id="pips" class="grid grid-cols-5 gap-2 mt-2"></div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="orbitron text-[10px] text-fuchsia-300">ENERGÍA</span>
+          <div class="energia flex-1"><div class="energia-barra"></div></div>
+          <span class="orbitron text-xs text-amber-200">⚡ <span class="txt-puntaje">0</span></span>
+        </div>
+        <p class="aviso-sobrecarga orbitron text-center text-xs sm:text-sm font-black text-fuchsia-300 mt-1">🔥 MODO SOBRECARGA · PUNTOS x2 🔥</p>
+
+        <div class="pantalla-crt rounded-2xl mt-3 p-3">
+          <div class="flex items-center justify-between gap-2 orbitron text-[11px] sm:text-xs text-cyan-300">
+            <span id="txt-planeta">◉ SEÑAL</span>
+            <span id="txt-dato" class="text-right">DATO: ???</span>
+          </div>
+          <canvas id="osciloscopio" class="w-full h-16 sm:h-20 mt-1 block" aria-hidden="true"></canvas>
+          <div id="visual" class="hidden h-16 sm:h-20 mt-1 items-center justify-center gap-3"></div>
+          <p id="txt-pregunta" class="text-center text-base sm:text-xl font-black text-white mt-1"></p>
+        </div>
+
+        <div id="arena" class="rounded-2xl mt-3 h-72 sm:h-80">
+          <div class="zona-peligro"></div>
+          <div id="nave-arcade" aria-hidden="true">🚀</div>
+        </div>
+
+        <p id="txt-estado" class="text-center text-sm sm:text-lg font-extrabold text-cyan-100 mt-3 min-h-[3em]" aria-live="polite"></p>
+        <div class="flex flex-wrap justify-center gap-3 mt-2">
+          <button id="btn-repetir" class="boton-control orbitron rounded-full px-4 py-2 text-xs sm:text-sm font-bold text-cyan-100">🔊 Escuchar de nuevo</button>
+          <button id="btn-pista" class="boton-control orbitron rounded-full px-4 py-2 text-xs sm:text-sm font-bold text-cyan-100"></button>
+          <button id="btn-siguiente" class="boton-mision orbitron hidden text-base sm:text-lg font-black text-slate-950 px-7 py-2.5 rounded-full">Siguiente ➡</button>
+        </div>
+      </section>
+
+      <!-- ================= 5b. CONSTRUCTOR DE BEATS (Planeta Do-Re-Mi) ================= -->
+      <section id="pantalla-beats" class="hidden px-1">
+        <div class="mb-2"><button class="btn-salir-nivel boton-control orbitron rounded-full px-3 py-1.5 text-xs font-bold text-cyan-100">⬅ Salir</button></div>
+        <div class="flex items-center justify-between gap-2 orbitron">
+          <div class="text-xs sm:text-base text-cyan-200">ATAQUE <span id="b-ronda" class="text-white text-lg sm:text-xl font-black">1</span>/5</div>
+          <div id="b-nivel" class="text-[11px] sm:text-sm text-slate-300"></div>
+          <div class="text-xs sm:text-base text-amber-200">⭐ <span id="b-aciertos" class="text-white text-lg sm:text-xl font-black">0</span> <span id="b-racha" class="ml-1 text-slate-500">🔥0</span></div>
+        </div>
+        <div id="b-pips" class="grid grid-cols-5 gap-2 mt-2"></div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="orbitron text-[10px] text-fuchsia-300">ENERGÍA</span>
+          <div class="energia flex-1"><div class="energia-barra"></div></div>
+          <span class="orbitron text-xs text-amber-200">⚡ <span class="txt-puntaje">0</span></span>
+        </div>
+        <p class="aviso-sobrecarga orbitron text-center text-xs sm:text-sm font-black text-fuchsia-300 mt-1">🔥 MODO SOBRECARGA · PUNTOS x2 · RITMO ACELERADO 🔥</p>
+        <div id="b-capas" class="flex flex-wrap gap-1 justify-center text-[10px] sm:text-xs orbitron mt-2"></div>
+
+        <div class="pantalla-crt rounded-2xl mt-3 p-3">
+          <div class="flex items-center justify-between gap-2 orbitron text-[11px] sm:text-xs text-rose-300">
+            <span>👾 NAVE ENEMIGA</span>
+            <span id="b-pista-texto" class="text-cyan-300 text-right"></span>
+          </div>
+          <p id="b-enemigo" class="text-center text-base sm:text-xl font-black text-white mt-2 min-h-[1.6em]"></p>
+          <div class="flex flex-wrap justify-center gap-2 mt-2">
+            <button id="b-escuchar" class="boton-control orbitron rounded-full px-4 py-2 text-xs sm:text-sm font-bold text-cyan-100">🔊 Escuchar el ataque otra vez</button>
+          </div>
+        </div>
+
+        <div id="b-rejilla" class="mt-3"></div>
+
+        <p id="b-estado" class="text-center text-sm sm:text-lg font-extrabold text-cyan-100 mt-3 min-h-[3em]" aria-live="polite"></p>
+        <div class="flex flex-wrap justify-center gap-3 mt-2">
+          <button id="b-borrar" class="boton-control orbitron rounded-full px-4 py-2 text-xs sm:text-sm font-bold text-cyan-100">🗑️ Borrar</button>
+          <button id="b-devolver" class="boton-mision orbitron text-base sm:text-lg font-black text-slate-950 px-7 py-2.5 rounded-full">🚀 Devolver el ataque</button>
+          <button id="b-siguiente" class="boton-mision orbitron hidden text-base sm:text-lg font-black text-slate-950 px-7 py-2.5 rounded-full">Siguiente ➡</button>
+        </div>
+      </section>
+
+      <!-- ================= 5c. ESTUDIO LIBRE ================= -->
+      <section id="pantalla-estudio" class="hidden px-1">
+        <h2 class="orbitron texto-neon text-2xl sm:text-4xl font-black text-center">🎚️ Estudio libre</h2>
+        <div class="flex items-start gap-3 mt-4">
+          <div class="zum" aria-hidden="true">👽</div>
+          <div class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"><b class="text-emerald-300">Zum:</b> ¡Ahora eres productor musical! Dibuja tu propia canción espacial: arriba las notas agudas, abajo las graves, y los bloques largos son notas largas. Se repite en bucle para que la escuches mientras la construyes.</div>
+        </div>
+        <div class="pantalla-crt rounded-2xl mt-4 p-3">
+          <div class="flex items-center gap-3">
+            <span class="orbitron text-[11px] sm:text-xs text-cyan-300 flex-none">BATERÍA</span>
+            <input id="estudio-capas" class="palanca" type="range" min="0" max="5" value="5" aria-label="Capas de la base">
+            <span id="estudio-capas-txt" class="orbitron text-xs text-white flex-none w-16 text-right">5 capas</span>
+          </div>
+        </div>
+        <div id="estudio-rejilla" class="mt-3"></div>
+        <div class="flex flex-wrap justify-center gap-3 mt-4">
+          <button id="estudio-borrar" class="boton-control orbitron rounded-full px-5 py-2 text-sm font-bold text-cyan-100">🗑️ Borrar todo</button>
+          <button id="estudio-salir" class="boton-control orbitron rounded-full px-5 py-2 text-sm font-bold text-cyan-100">🪐 Volver al planeta</button>
+        </div>
+      </section>
+
+      <!-- ================= 5d. LLUVIA DE METEOROS ================= -->
+      <section id="pantalla-meteoros" class="hidden px-1">
+        <!-- Menú: elegir modo y canción -->
+        <div id="met-menu">
+          <h2 class="orbitron texto-neon text-2xl sm:text-4xl font-black text-center">🎹 Lluvia de Meteoros</h2>
+          <div class="flex items-start gap-3 mt-4">
+            <div class="zum" aria-hidden="true">👽</div>
+            <div class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"><b class="text-emerald-300">Zum:</b> ¡Caen meteoros musicales por 5 carriles: Do, Re, Mi, Fa y Sol! Toca el carril justo cuando el meteoro llegue a la <b>línea de luz</b>. Si el meteoro tiene cola larga, es una nota larga. ¡Así tocarás canciones de verdad!</div>
+          </div>
+          <p class="orbitron text-cyan-300 text-xs sm:text-sm mt-5 mb-2">1 · ELIGE EL MODO</p>
+          <div class="grid grid-cols-2 gap-2 sm:gap-3">
+            <button class="modo-met boton-control rounded-2xl p-3 text-left" data-modo="practica">
+              <span class="block orbitron font-black text-white text-base sm:text-lg">🐢 Práctica</span>
+              <span class="block text-xs sm:text-sm text-slate-300 font-bold">Las notas te esperan. Ideal para aprender la canción.</span>
+            </button>
+            <button class="modo-met boton-control rounded-2xl p-3 text-left" data-modo="desafio">
+              <span class="block orbitron font-black text-white text-base sm:text-lg">🔥 Desafío</span>
+              <span class="block text-xs sm:text-sm text-slate-300 font-bold">No se detienen. ¡Combos y Sobrecarga!</span>
+            </button>
+          </div>
+          <label class="flex items-center justify-center gap-2 mt-3 text-sm sm:text-base font-bold text-slate-200 cursor-pointer">
+            <input id="met-nombres" type="checkbox" class="w-5 h-5 accent-cyan-400" checked> Mostrar el nombre de la nota en los meteoros
+          </label>
+          <p class="orbitron text-cyan-300 text-xs sm:text-sm mt-5 mb-2">2 · ELIGE LA CANCIÓN</p>
+          <div id="met-canciones" class="grid gap-2 sm:gap-3 sm:grid-cols-2"></div>
+          <div class="text-center mt-5">
+            <button id="met-mapa" class="boton-control orbitron rounded-full px-5 py-2.5 text-sm font-bold text-cyan-100">🌌 Volver al mapa</button>
+          </div>
+        </div>
+
+        <!-- Juego -->
+        <div id="met-juego" class="hidden">
+          <div class="flex items-center justify-between gap-2 orbitron">
+            <button id="met-salir" class="boton-control rounded-full px-3 py-1.5 text-xs font-bold text-cyan-100">⬅ Salir</button>
+            <div id="met-titulo" class="text-[11px] sm:text-sm text-slate-200 text-center truncate"></div>
+            <div class="text-xs sm:text-base text-amber-200 whitespace-nowrap">⚡ <span id="met-puntaje" class="text-white font-black">0</span></div>
+          </div>
+          <div class="flex items-center justify-between gap-2 orbitron text-[11px] sm:text-sm mt-2">
+            <span class="text-cyan-200">COMBO <span id="met-combo" class="text-white text-base sm:text-lg font-black">0</span></span>
+            <div class="energia flex-1"><div id="met-progreso" style="background:linear-gradient(90deg,#22d3ee,#3dff9a)"></div></div>
+            <span id="met-modo-txt" class="text-slate-300"></span>
+          </div>
+          <p class="aviso-sobrecarga orbitron text-center text-xs sm:text-sm font-black text-fuchsia-300 mt-1">🔥 MODO SOBRECARGA · PUNTOS x2 🔥</p>
+          <canvas id="met-canvas" class="w-full rounded-2xl block mt-2" aria-label="Carriles con meteoros musicales"></canvas>
+          <div id="met-pads" class="grid grid-cols-5 gap-1.5 sm:gap-2 mt-2"></div>
+          <p class="text-center text-xs sm:text-sm text-slate-400 mt-2">En computadora: teclas <b>A S D F G</b> o <b>1 2 3 4 5</b></p>
+        </div>
+
+        <!-- Resultado -->
+        <div id="met-final" class="hidden text-center">
+          <p id="met-final-cancion" class="orbitron text-cyan-300 text-xs sm:text-base"></p>
+          <div id="met-final-insignia" class="text-7xl mt-2 flotar" aria-hidden="true">🎹</div>
+          <div class="orbitron font-black text-5xl sm:text-6xl text-white mt-2" style="text-shadow:0 0 25px #22d3ee"><span id="met-final-precision">0</span><span class="text-cyan-300">%</span></div>
+          <p class="text-slate-300">de precisión</p>
+          <div id="met-final-estrellas" class="text-4xl mt-1 tracking-widest"></div>
+          <div class="pantalla-crt rounded-2xl mt-4 p-4 grid grid-cols-2 sm:grid-cols-4 gap-3 orbitron text-sm">
+            <div><div id="met-f-perfectos" class="text-2xl font-black text-emerald-300">0</div><div class="text-[11px] text-slate-300">PERFECTOS</div></div>
+            <div><div id="met-f-bien" class="text-2xl font-black text-cyan-300">0</div><div class="text-[11px] text-slate-300">BIEN</div></div>
+            <div><div id="met-f-fallos" class="text-2xl font-black text-rose-300">0</div><div class="text-[11px] text-slate-300">FALLOS</div></div>
+            <div><div id="met-f-combo" class="text-2xl font-black text-amber-200">0</div><div class="text-[11px] text-slate-300">COMBO MÁX.</div></div>
+          </div>
+          <p class="orbitron text-amber-200 text-base sm:text-lg font-black mt-3">⚡ Puntaje: <span id="met-f-puntaje">0</span></p>
+          <div class="flex items-start gap-3 mt-4 text-left">
+            <div class="zum" aria-hidden="true">👽</div>
+            <div id="met-f-zum" class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"></div>
+          </div>
+          <div class="flex flex-wrap justify-center gap-3 mt-6">
+            <button id="met-otra-vez" class="boton-mision orbitron text-lg sm:text-xl font-black text-slate-950 px-7 py-3 rounded-full">🔁 Otra vez</button>
+          </div>
+          <button id="met-otra-cancion" class="boton-control orbitron rounded-full px-6 py-2.5 text-sm font-bold text-cyan-100 mt-4">🎵 Elegir otra canción</button>
+        </div>
+      </section>
+
+      <!-- ================= 6. FINAL DEL NIVEL ================= -->
+      <section id="pantalla-final" class="hidden text-center px-1 pb-2">
+        <p id="final-titulo" class="orbitron text-cyan-300 text-xs sm:text-base"></p>
+        <div id="final-insignia" class="text-7xl sm:text-8xl mt-2 flotar select-none" aria-hidden="true">🏅</div>
+        <div class="orbitron font-black text-6xl sm:text-7xl text-white mt-2" style="text-shadow:0 0 25px #22d3ee">
+          <span id="final-puntos">0</span><span class="text-cyan-300">/5</span>
+        </div>
+        <div id="final-estrellas" class="text-4xl mt-1 tracking-widest"></div>
+        <p class="orbitron text-amber-200 text-base sm:text-lg font-black mt-1">⚡ Puntaje: <span id="final-puntaje">0</span></p>
+        <div id="final-pips" class="grid grid-cols-5 gap-2 max-w-xs mx-auto mt-3"></div>
+        <div class="pantalla-crt rounded-2xl mt-4 p-4">
+          <p class="orbitron text-xs sm:text-sm text-cyan-300">RANGO OBTENIDO</p>
+          <p id="final-rango" class="orbitron texto-neon text-2xl sm:text-4xl font-black mt-1"></p>
+        </div>
+        <div id="dj" class="hidden pantalla-crt rounded-2xl mt-4 p-4">
+          <p class="orbitron text-xs sm:text-sm text-cyan-300">🎛️ PAD DE DJ · ¡IMPROVISA TU DROP!</p>
+          <div id="dj-pads" class="grid grid-cols-5 gap-2 mt-3"></div>
+          <p class="text-sm text-slate-300 mt-2">Toca los pads (o las teclas 1 a 5) sobre la pista que armaste con <b id="dj-capas">0</b> capas.</p>
+        </div>
+        <div class="flex items-start gap-3 mt-4 text-left">
+          <div class="zum" aria-hidden="true">👽</div>
+          <div id="final-zum" class="globo rounded-2xl p-3 sm:p-4 text-base sm:text-lg leading-relaxed text-emerald-50"></div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-3 mt-6">
+          <button id="btn-siguiente-nivel" class="boton-mision orbitron text-lg sm:text-xl font-black text-slate-950 px-7 py-3 rounded-full">Siguiente nivel ➡</button>
+          <button id="btn-reiniciar" class="boton-mision orbitron text-lg sm:text-xl font-black text-slate-950 px-7 py-3 rounded-full">🔁 Jugar de nuevo</button>
+        </div>
+        <button id="btn-final-planeta" class="boton-control orbitron rounded-full px-6 py-2.5 text-sm font-bold text-cyan-100 mt-4">🪐 Volver al planeta</button>
+      </section>
+
+      <!-- ================= 7. FINAL DE LA HISTORIA ================= -->
+      <section id="pantalla-historia" class="hidden text-center px-1 pb-2">
+        <div class="text-7xl sm:text-8xl flotar" aria-hidden="true">👽🎉</div>
+        <h2 class="orbitron texto-neon text-3xl sm:text-5xl font-black mt-3">¡Canción recuperada!</h2>
+        <div class="globo rounded-2xl p-4 mt-5 text-base sm:text-xl leading-relaxed text-emerald-50 text-left">
+          <b class="text-emerald-300">Zum:</b> ¡Lo lograste, cadete! Los 5 fragmentos volvieron a mi planeta. Escucha: esta es la <b>Canción de Armonía</b> completa, hecha con todo lo que aprendiste: notas, graves y agudos, tempo, ritmo e instrumentos.
+        </div>
+        <div id="fragmentos-final" class="grid grid-cols-5 gap-2 mt-5"></div>
+        <button id="btn-tocar-final" class="boton-control orbitron rounded-full px-6 py-2.5 text-sm sm:text-base font-bold text-cyan-100 mt-4">▶ Escuchar otra vez</button>
+        <div class="pantalla-crt rounded-2xl mt-5 p-5">
+          <p class="orbitron text-xs sm:text-sm text-cyan-300">CERTIFICADO GALÁCTICO</p>
+          <p class="orbitron texto-neon text-2xl sm:text-4xl font-black mt-1">👑 Guardián de la Galaxia Musical</p>
+        </div>
+        <button id="btn-historia-mapa" class="boton-mision orbitron text-lg font-black text-slate-950 px-8 py-3 rounded-full mt-6">🌌 Volver al mapa</button>
+      </section>
+    </div>
+  </main>
+
+  <!-- Ventana de confirmación propia (en vez de confirm(), que algunos navegadores bloquean) -->
+  <div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-texto">
+    <div class="modal-caja tablero rounded-3xl p-6 text-center">
+      <div class="text-5xl" aria-hidden="true">👽</div>
+      <p id="modal-texto" class="text-lg sm:text-xl font-extrabold text-cyan-50 mt-3"></p>
+      <div class="flex flex-wrap justify-center gap-3 mt-6">
+        <button id="modal-si" class="boton-mision orbitron text-base sm:text-lg font-black text-slate-950 px-6 py-2.5 rounded-full">Sí</button>
+        <button id="modal-no" class="boton-control orbitron rounded-full px-6 py-2.5 text-sm sm:text-base font-bold text-cyan-100">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    'use strict';
+
+    /* =============================================================
+       UTILIDADES
+       ============================================================= */
+    const $ = (id) => document.getElementById(id);
+    const azar = (lista) => lista[Math.floor(Math.random() * lista.length)];
+    const entre = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
+    function mezclar(lista) {               // mezcla de Fisher‑Yates
+      const a = [...lista];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+    function leer(clave, valor) {
+      try { const v = localStorage.getItem('mme2:' + clave); return v === null ? valor : JSON.parse(v); } catch { return valor; }
+    }
+    function guardar(clave, valor) {
+      try { localStorage.setItem('mme2:' + clave, JSON.stringify(valor)); } catch { /* sin almacenamiento */ }
+    }
+
+    /* =============================================================
+       AUDIO (Web Audio API)
+       ============================================================= */
+    let audio = null, analizador = null, salida = null, bus = null, ruidoBuf = null;
+    let silencio = leer('silencio', false);   // botón 🔊/🔇
+    let activos = [];
+
+    // Reverberación: un "eco" artificial hecho con ruido que se apaga poco a poco
+    function crearImpulso(segundos) {
+      const n = Math.floor(audio.sampleRate * segundos);
+      const b = audio.createBuffer(2, n, audio.sampleRate);
+      for (let ch = 0; ch < 2; ch++) {
+        const d = b.getChannelData(ch);
+        for (let i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / n, 3);
+      }
+      return b;
+    }
+
+    function iniciarAudio() {
+      if (!audio) {
+        audio = new (window.AudioContext || window.webkitAudioContext)();
+        salida = audio.createGain();
+        salida.gain.value = silencio ? 0 : 0.9;
+        analizador = audio.createAnalyser();
+        analizador.fftSize = 2048;
+        salida.connect(analizador);
+        analizador.connect(audio.destination);
+        // bus = sonido directo + una parte con reverberación espacial
+        bus = audio.createGain();
+        const reverb = audio.createConvolver();
+        reverb.buffer = crearImpulso(2.4);
+        const humedo = audio.createGain();
+        humedo.gain.value = 0.3;
+        bus.connect(salida);
+        bus.connect(reverb).connect(humedo).connect(salida);
+        // ruido blanco para la batería (caja y platillos)
+        ruidoBuf = audio.createBuffer(1, audio.sampleRate, audio.sampleRate);
+        const d = ruidoBuf.getChannelData(0);
+        for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+      }
+      if (audio.state === 'suspended') audio.resume();
+    }
+
+    function registrar(fuente, g) {
+      const s = { osc: fuente, g };
+      activos.push(s);
+      fuente.onended = () => { activos = activos.filter(x => x !== s); };
+    }
+
+    // Toca una frecuencia. tipo 'synth' = sintetizador espacial:
+    // dos ondas diente de sierra un poco desafinadas + filtro que se cierra + reverberación
+    function tocar(frecuencia, duracion = 1.2, retraso = 0, tipo = 'synth', volumen = 0.45) {
+      iniciarAudio();
+      const t = audio.currentTime + retraso;
+      const g = audio.createGain();
+      const ataque = Math.min(0.03, duracion / 4);
+      if (tipo === 'synth') volumen *= 0.55;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(volumen, t + ataque);
+      g.gain.setValueAtTime(volumen, t + Math.max(ataque, duracion * 0.6));
+      g.gain.exponentialRampToValueAtTime(0.0001, t + duracion);
+      g.connect(bus);
+      if (tipo === 'synth') {
+        const filtro = audio.createBiquadFilter();
+        filtro.type = 'lowpass';
+        filtro.Q.value = 5;
+        filtro.frequency.setValueAtTime(Math.min(12000, frecuencia * 9), t);
+        filtro.frequency.exponentialRampToValueAtTime(Math.max(500, frecuencia * 2.2), t + Math.min(0.45, duracion));
+        filtro.connect(g);
+        [-8, 8].forEach(desafine => {
+          const o = audio.createOscillator();
+          o.type = 'sawtooth';
+          o.frequency.value = frecuencia;
+          o.detune.value = desafine;
+          o.connect(filtro);
+          o.start(t); o.stop(t + duracion + 0.05);
+          registrar(o, g);
+        });
+      } else {
+        const osc = audio.createOscillator();
+        osc.type = tipo;
+        osc.frequency.value = frecuencia;
+        osc.connect(g);
+        osc.start(t); osc.stop(t + duracion + 0.05);
+        registrar(osc, g);
+      }
+    }
+
+    // ----- Batería y bajo sintetizados -----
+    function bombo(retraso = 0) {
+      iniciarAudio();
+      const t = audio.currentTime + retraso;
+      const o = audio.createOscillator(), g = audio.createGain();
+      o.frequency.setValueAtTime(150, t);
+      o.frequency.exponentialRampToValueAtTime(42, t + 0.16);
+      g.gain.setValueAtTime(0.9, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.32);
+      o.connect(g).connect(salida);
+      o.start(t); o.stop(t + 0.35);
+      registrar(o, g);
+    }
+    function ruidoCorto(retraso, tipoFiltro, frec, vol, dur) {
+      iniciarAudio();
+      const t = audio.currentTime + retraso;
+      const src = audio.createBufferSource();
+      src.buffer = ruidoBuf;
+      const f = audio.createBiquadFilter();
+      f.type = tipoFiltro; f.frequency.value = frec;
+      const g = audio.createGain();
+      g.gain.setValueAtTime(vol, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+      src.connect(f).connect(g).connect(bus);
+      src.start(t); src.stop(t + dur + 0.02);
+      registrar(src, g);
+    }
+    const caja = (r) => { ruidoCorto(r, 'bandpass', 1800, 0.55, 0.18); tocar(190, 0.08, r, 'triangle', 0.2); };
+    const platillo = (r, v) => ruidoCorto(r, 'highpass', 7000, v, 0.05);
+    function bajo(frecuencia, retraso, dur) {
+      iniciarAudio();
+      const t = audio.currentTime + retraso;
+      const o = audio.createOscillator(), f = audio.createBiquadFilter(), g = audio.createGain();
+      o.type = 'sawtooth'; o.frequency.value = frecuencia;
+      f.type = 'lowpass'; f.frequency.value = 420; f.Q.value = 6;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.42, t + 0.01);
+      g.gain.setValueAtTime(0.42, t + dur * 0.7);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(f).connect(g).connect(salida);
+      o.start(t); o.stop(t + dur + 0.05);
+      registrar(o, g);
+    }
+    const clic = (retraso = 0, acento = false) => tocar(acento ? 1600 : 1100, 0.05, retraso, 'square', acento ? 0.18 : 0.1);
+
+    // Detiene todo lo que suena o está programado
+    function detener() {
+      if (!audio) return;
+      const ahora = audio.currentTime;
+      activos.forEach(({ osc, g }) => {
+        try { g.gain.cancelScheduledValues(ahora); g.gain.setValueAtTime(0.0001, ahora); osc.stop(ahora + 0.02); } catch { /* ya terminó */ }
+      });
+      activos = [];
+    }
+    const sonidoLaser  = () => tocar(1800, 0.15, 0, 'sawtooth', 0.08);
+    const beepVictoria = () => { tocar(1318.5, 0.12, 0.05, 'sine', 0.3); tocar(1760, 0.22, 0.16, 'sine', 0.3); };
+    const zumbidoError = () => { tocar(140, 0.35, 0, 'square', 0.12); tocar(110, 0.4, 0.12, 'square', 0.12); };
+    const fanfarria    = () => [523.3, 659.3, 784, 1046.5].forEach((f, i) => tocar(f, i === 3 ? 0.6 : 0.2, i * 0.13, 'triangle', 0.35));
+
+    /* =============================================================
+       OSCILOSCOPIOS: dibujan la onda del sonido en tiempo real
+       ============================================================= */
+    const lienzos = [$('osciloscopio'), $('osc-lab')];
+    let muestras = null;
+    function dibujarOndas() {
+      lienzos.forEach(lienzo => {
+        if (!lienzo.offsetParent || lienzo.classList.contains('hidden')) return;   // no visible
+        const c = lienzo.getContext('2d');
+        const dpr = window.devicePixelRatio || 1;
+        const ancho = lienzo.clientWidth, alto = lienzo.clientHeight;
+        if (lienzo.width !== ancho * dpr) { lienzo.width = ancho * dpr; lienzo.height = alto * dpr; }
+        c.setTransform(dpr, 0, 0, dpr, 0, 0);
+        c.clearRect(0, 0, ancho, alto);
+        c.strokeStyle = 'rgba(34, 211, 238, .12)'; c.lineWidth = 1;
+        for (let x = 0; x < ancho; x += 26) { c.beginPath(); c.moveTo(x, 0); c.lineTo(x, alto); c.stroke(); }
+        for (let y = 0; y < alto; y += 26) { c.beginPath(); c.moveTo(0, y); c.lineTo(ancho, y); c.stroke(); }
+        c.strokeStyle = '#67e8f9'; c.shadowColor = '#22d3ee'; c.shadowBlur = 12; c.lineWidth = 2.5;
+        c.beginPath();
+        if (analizador) {
+          if (!muestras) muestras = new Uint8Array(analizador.fftSize);
+          analizador.getByteTimeDomainData(muestras);
+          for (let i = 0; i < 600; i++) {
+            const v = (muestras[i] - 128) / 128;
+            const x = (i / 599) * ancho, y = alto / 2 - v * alto * 0.9;
+            i === 0 ? c.moveTo(x, y) : c.lineTo(x, y);
+          }
+        } else { c.moveTo(0, alto / 2); c.lineTo(ancho, alto / 2); }
+        c.stroke(); c.shadowBlur = 0;
+      });
+      requestAnimationFrame(dibujarOndas);
+    }
+    requestAnimationFrame(dibujarOndas);
+
+    /* =============================================================
+       CONTENIDO MUSICAL
+       ============================================================= */
+    // Notas de la 4.ª octava (Hz)
+    const NOTAS = [
+      { nombre: 'Do',  frecuencia: 261.6, color: '#ff4d6d' },
+      { nombre: 'Re',  frecuencia: 293.6, color: '#ff9f1c' },
+      { nombre: 'Mi',  frecuencia: 329.6, color: '#ffe14d' },
+      { nombre: 'Fa',  frecuencia: 349.2, color: '#3dff9a' },
+      { nombre: 'Sol', frecuencia: 392.0, color: '#4dc3ff' },
+    ];
+    const nota = (nombre) => NOTAS.find(n => n.nombre === nombre);
+
+    // Figuras rítmicas. "notas" = en qué tiempo empieza cada sonido dentro de un compás de 4 tiempos
+    const FIGURAS = {
+      blanca:  { nombre: 'Blanca',  tiempos: '2 tiempos', notas: [0, 2], duracion: 2, color: '#f0abfc' },
+      negra:   { nombre: 'Negra',   tiempos: '1 tiempo',  notas: [0, 1, 2, 3], duracion: 1, color: '#4dc3ff' },
+      corchea: { nombre: 'Corchea', tiempos: '½ tiempo',  notas: [0, .5, 1, 1.5, 2, 2.5, 3, 3.5], duracion: .5, color: '#ffe14d' },
+    };
+    const PULSO = 0.6;   // segundos por tiempo (100 pulsos por minuto)
+
+    // Dibujo (SVG) de una figura rítmica
+    function svgFigura(figura, alto = 90) {
+      const relleno = figura === 'blanca' ? 'none' : '#e0f7ff';
+      let s = `<svg viewBox="0 0 60 100" width="${alto * 0.6}" height="${alto}" aria-hidden="true" style="filter:drop-shadow(0 0 8px #22d3ee)">`;
+      s += `<ellipse cx="22" cy="80" rx="15" ry="11" transform="rotate(-22 22 80)" fill="${relleno}" stroke="#e0f7ff" stroke-width="4"/>`;
+      s += `<line x1="35" y1="76" x2="35" y2="8" stroke="#e0f7ff" stroke-width="4"/>`;
+      if (figura === 'corchea') s += `<path d="M35 8 C 40 24, 58 30, 52 52 C 52 38, 44 32, 35 30 Z" fill="#e0f7ff"/>`;
+      return s + '</svg>';
+    }
+
+    // 4 clics de cuenta + un compás con la figura sonando sobre el pulso
+    function tocarFigura(clave, conCuenta = true) {
+      const f = FIGURAS[clave];
+      const inicio = conCuenta ? 4 : 0;
+      for (let i = 0; i < inicio + 4; i++) clic(i * PULSO, i % 4 === 0);
+      f.notas.forEach(n => tocar(392, f.duracion * PULSO * 0.92, (inicio + n) * PULSO, 'triangle', 0.5));
+      return (inicio + 4) * PULSO;
+    }
+
+    // Melodía corta con distintos espacios entre notas (para el tempo)
+    const MELODIA = [261.6, 329.6, 392.0, 329.6, 261.6, 293.6, 329.6, 261.6, 392.0, 329.6];
+    function tocarConIntervalos(intervalos) {
+      let t = 0;
+      intervalos.forEach((paso, i) => { tocar(MELODIA[i % MELODIA.length], Math.min(0.5, paso * 0.85), t, 'triangle', 0.45); t += paso; });
+      return t;
+    }
+    const tocarTempo = (bpm, n) => tocarConIntervalos(Array(n).fill(60 / bpm));
+    const PASOS_ACEL = Array.from({ length: 10 }, (_, i) => 0.85 - (0.57 * i) / 9);   // de 0.85 s a 0.28 s
+
+    // Familias e instrumentos
+    const FAMILIAS = [
+      { id: 'cuerdas',   label: 'Cuerdas',       icono: '〰️', color: '#f0abfc', como: 'Suenan al <b>frotar</b> (con arco) o <b>pulsar</b> (con los dedos) sus cuerdas.', ejemplos: '🎻 violín · violonchelo · 🎸 guitarra · arpa · contrabajo' },
+      { id: 'madera',    label: 'Viento madera', icono: '🌬️', color: '#3dff9a', como: 'Suenan al <b>soplar</b> por un bisel (flauta) o sobre una <b>lengüeta de caña</b>.', ejemplos: '🪈 flauta · clarinete · oboe · fagot · 🎷 saxofón' },
+      { id: 'metal',     label: 'Viento metal',  icono: '📯', color: '#ffb020', como: 'Suenan cuando los <b>labios vibran</b> dentro de una boquilla de metal.', ejemplos: '🎺 trompeta · trombón · tuba · corno francés' },
+      { id: 'percusion', label: 'Percusión',     icono: '💥', color: '#4dc3ff', como: 'Suenan al <b>golpear</b>, sacudir o raspar el instrumento.', ejemplos: '🥁 tambor · timbales · xilófono · platillos · maracas' },
+    ];
+    const INSTRUMENTOS = [
+      { nombre: 'Violín', emoji: '🎻', familia: 'cuerdas', dato: 'Se toca frotando sus 4 cuerdas con un arco.' },
+      { nombre: 'Guitarra', emoji: '🎸', familia: 'cuerdas', dato: 'Sus 6 cuerdas se pulsan con los dedos o con una púa.' },
+      { nombre: 'Arpa', emoji: '🎼', familia: 'cuerdas', dato: '¡Puede tener 47 cuerdas! Se tocan pellizcándolas.' },
+      { nombre: 'Violonchelo', emoji: '🎻', familia: 'cuerdas', dato: 'Es como un violín gigante: se toca sentado y con arco.' },
+      { nombre: 'Flauta traversa', emoji: '🪈', familia: 'madera', dato: 'Aunque hoy es de metal, es de viento madera: antiguamente se hacía de madera.' },
+      { nombre: 'Clarinete', emoji: '🎶', familia: 'madera', dato: 'Suena gracias a una lengüeta de caña que vibra.' },
+      { nombre: 'Saxofón', emoji: '🎷', familia: 'madera', dato: '¡Sorpresa! Es de metal, pero es de viento madera porque usa una lengüeta de caña.' },
+      { nombre: 'Oboe', emoji: '🎶', familia: 'madera', dato: 'Usa una doble lengüeta de caña. La orquesta afina con su nota La.' },
+      { nombre: 'Trompeta', emoji: '🎺', familia: 'metal', dato: 'El sonido nace cuando los labios vibran dentro de una boquilla.' },
+      { nombre: 'Trombón', emoji: '🎶', familia: 'metal', dato: 'Cambia de nota moviendo una vara que se desliza.' },
+      { nombre: 'Tuba', emoji: '🎶', familia: 'metal', dato: 'Es el instrumento más grave de la familia de los metales.' },
+      { nombre: 'Corno francés', emoji: '🎶', familia: 'metal', dato: 'Su tubo enrollado mide casi 4 metros.' },
+      { nombre: 'Tambor', emoji: '🥁', familia: 'percusion', dato: 'Suena al golpear su parche con baquetas.' },
+      { nombre: 'Xilófono', emoji: '🎶', familia: 'percusion', dato: 'Es de percusión, ¡pero puede tocar melodías con sus láminas de madera!' },
+      { nombre: 'Platillos', emoji: '🎶', familia: 'percusion', dato: 'Son dos discos de metal que se chocan entre sí.' },
+      { nombre: 'Timbales', emoji: '🎶', familia: 'percusion', dato: 'Son tambores grandes que se pueden afinar en distintas notas.' },
+    ];
+
+    // La Canción de Armonía: 5 fragmentos (uno por planeta). [frecuencia, tiempos]
+    const CANCION = [
+      [[261.6, 1], [329.6, 1], [392.0, 1], [329.6, 1]],
+      [[349.2, 1], [293.6, 1], [392.0, 2]],
+      [[329.6, 1], [392.0, 1], [523.3, 1], [392.0, 1]],
+      [[349.2, 1], [329.6, 1], [293.6, 1], [261.6, 1]],
+      [[293.6, 1], [392.0, 1], [261.6, 2]],
+    ];
+    const T_CANCION = 0.42;
+    // Toca los fragmentos ganados; los que faltan quedan en silencio. Ilumina cada casilla.
+    function tocarCancion(contenedor) {
+      detener();
+      const ganados = fragmentosGanados();
+      let t = 0;
+      CANCION.forEach((frag, i) => {
+        const inicio = t;
+        if (ganados[i]) {
+          frag.forEach(([f, d]) => { tocar(f, d * T_CANCION * 0.95, t, 'triangle', 0.45); tocar(f / 2, d * T_CANCION * 0.95, t, 'sine', 0.2); t += d * T_CANCION; });
+        } else t += 4 * T_CANCION;
+        const casilla = contenedor.children[i];
+        setTimeout(() => casilla && casilla.classList.add('sonando'), inicio * 1000);
+        setTimeout(() => casilla && casilla.classList.remove('sonando'), t * 1000);
+      });
+    }
+    function tocarFragmento(i) {
+      let t = 0;
+      CANCION[i].forEach(([f, d]) => { tocar(f, d * T_CANCION * 0.95, t, 'triangle', 0.45); t += d * T_CANCION; });
+    }
+
+    /* =============================================================
+       GENERADORES DE PREGUNTAS (uno por planeta y nivel)
+       Cada pregunta: texto, opciones, correcta, sonar() → segundos que dura,
+       pista opcional, visual opcional, dato y explicación.
+       ============================================================= */
+    const OPC = {
+      altura:   [{ id: 'grave', label: 'Grave', icono: '🐻', color: '#ff9f1c' }, { id: 'agudo', label: 'Agudo', icono: '🐦', color: '#4dc3ff' }],
+      duracion: [{ id: 'corta', label: 'Corta', icono: '⚡', color: '#ffe14d' }, { id: 'larga', label: 'Larga', icono: '🌊', color: '#f0abfc' }],
+      tempo:    [{ id: 'rapido', label: 'Rápido', icono: '🐇', color: '#ff4d6d' }, { id: 'lento', label: 'Lento', icono: '🐢', color: '#3dff9a' }],
+      cambio:   [{ id: 'acel', label: 'Acelera', icono: '⏩', color: '#ff9f1c' }, { id: 'rit', label: 'Frena', icono: '⏪', color: '#4dc3ff' }],
+    };
+    const opcFiguras = (claves, conDibujo) => claves.map(id => ({ id, label: FIGURAS[id].nombre, html: conDibujo ? svgFigura(id, 30) : null, color: FIGURAS[id].color }));
+    const opcTiempos = () => Object.keys(FIGURAS).map(id => ({ id, label: FIGURAS[id].tiempos, color: FIGURAS[id].color }));
+    // 5.º grado: grave/agudo y largo/corto
+    function preguntaAltura(dificil) {
+      const grave = Math.random() < 0.5;
+      const f = grave ? azar(dificil ? [146.8, 164.8, 174.6] : [98, 110, 130.8]) : azar(dificil ? [784, 880, 987.8] : [1046.5, 1318.5, 1568]);
+      return {
+        texto: '¿Este sonido es grave o agudo?', opciones: OPC.altura, correcta: grave ? 'grave' : 'agudo',
+        sonar: () => { tocar(f, 1.3); return 1.3; },
+        pista: dificil ? null : { label: '📡 Ejemplos', fn: () => { tocar(130.8, 0.8); tocar(1046.5, 0.8, 1); } },
+        dato: `${Math.round(f)} Hz`,
+        explicacion: grave
+          ? `Era grave: ${Math.round(f)} vibraciones por segundo. Los graves vibran lento y suenan "gruesos", como un oso 🐻.`
+          : `Era agudo: ${Math.round(f)} vibraciones por segundo. Los agudos vibran rápido y suenan "finitos", como un pajarito 🐦.`,
+      };
+    }
+    function preguntaDuracion(dificil) {
+      const corta = Math.random() < 0.5;
+      const n = azar(NOTAS);
+      const dur = corta ? (dificil ? 0.35 : 0.2) : (dificil ? 1.5 : 2.2);
+      return {
+        texto: '¿Esta nota es larga o corta?', opciones: OPC.duracion, correcta: corta ? 'corta' : 'larga',
+        sonar: () => { tocar(n.frecuencia, dur); return dur; },
+        pista: dificil ? null : { label: '📡 Ejemplos', fn: () => { tocar(329.6, 0.2); tocar(329.6, 2.2, 0.8); } },
+        dato: `DURACIÓN: ${dur} s`,
+        explicacion: corta ? `Era corta: sonó solo ${dur} segundos, como un ¡pum!` : `Era larga: siguió sonando ${dur} segundos.`,
+      };
+    }
+    function genAltura(nivel) {
+      if (nivel === 0) return Array.from({ length: 5 }, () => preguntaAltura(false));
+      if (nivel === 1) return Array.from({ length: 5 }, () => preguntaDuracion(false));
+      return mezclar(['a', 'a', 'd', 'd', azar(['a', 'd'])]).map(t => t === 'a' ? preguntaAltura(true) : preguntaDuracion(true));
+    }
+
+    // 6.º grado: tempo
+    function preguntaVelocidad(dificil) {
+      const rapido = Math.random() < 0.5;
+      const bpm = rapido ? (dificil ? entre(132, 144) : entre(150, 174)) : (dificil ? entre(66, 76) : entre(54, 66));
+      const n = rapido ? 10 : 5;
+      return {
+        texto: '¿El tempo es rápido o lento?', opciones: OPC.tempo, correcta: rapido ? 'rapido' : 'lento',
+        sonar: () => tocarTempo(bpm, n),
+        pista: dificil ? null : { label: '📡 Tempo medio', fn: () => tocarTempo(100, 6) },
+        dato: `TEMPO: ${bpm} PULSOS/MIN`,
+        explicacion: rapido ? `Rápido: ${bpm} pulsos por minuto (Allegro 🐇).` : `Lento: ${bpm} pulsos por minuto (Adagio 🐢).`,
+      };
+    }
+    function preguntaCambio(dificil) {
+      const acel = Math.random() < 0.5;
+      return {
+        texto: '¿La música se acelera o frena?', opciones: OPC.cambio, correcta: acel ? 'acel' : 'rit',
+        sonar: () => tocarConIntervalos(acel ? PASOS_ACEL : [...PASOS_ACEL].reverse()),
+        pista: dificil ? null : { label: '📡 Tempo medio', fn: () => tocarTempo(100, 6) },
+        dato: acel ? 'ACCELERANDO' : 'RITARDANDO',
+        explicacion: acel ? 'Se aceleraba: eso se llama "accelerando".' : 'Frenaba poco a poco: eso se llama "ritardando".',
+      };
+    }
+    function genTempo(nivel) {
+      if (nivel === 0) return Array.from({ length: 5 }, () => preguntaVelocidad(false));
+      if (nivel === 1) return Array.from({ length: 5 }, () => preguntaCambio(false));
+      return mezclar(['v', 'v', 'v', 'c', 'c']).map(t => t === 'v' ? preguntaVelocidad(true) : preguntaCambio(true));
+    }
+
+    // 7.º grado: figuras rítmicas
+    function preguntaEscucharFigura(fig, claves, conPista) {
+      return {
+        texto: '¿Qué figura sonó sobre el pulso?', opciones: opcFiguras(claves, true), correcta: fig,
+        sonar: () => tocarFigura(fig),
+        pista: conPista ? { label: '📡 Escuchar el pulso', fn: () => { for (let i = 0; i < 4; i++) clic(i * PULSO, i === 0); } } : null,
+        dato: `${FIGURAS[fig].nombre.toUpperCase()} = ${FIGURAS[fig].tiempos.toUpperCase()}`,
+        explicacion: `Era ${FIGURAS[fig].nombre.toLowerCase()}: ${FIGURAS[fig].notas.length} sonidos en 4 tiempos, cada uno de ${FIGURAS[fig].tiempos}.`,
+      };
+    }
+    function genRitmo(nivel) {
+      if (nivel < 2) {
+        const claves = nivel === 0 ? ['blanca', 'corchea'] : ['blanca', 'negra', 'corchea'];
+        let lista;
+        do { lista = Array.from({ length: 5 }, () => azar(claves)); } while (new Set(lista).size < claves.length);
+        return lista.map(fig => preguntaEscucharFigura(fig, claves, true));
+      }
+      const todas = Object.keys(FIGURAS);
+      const preguntas = [preguntaEscucharFigura(azar(todas), todas, false), preguntaEscucharFigura(azar(todas), todas, false)];
+      for (let i = 0; i < 3; i++) {
+        const fig = azar(todas);
+        const porNombre = i !== 1;
+        preguntas.push({
+          texto: porNombre ? '¿Cómo se llama esta figura?' : '¿Cuántos tiempos dura?',
+          opciones: porNombre ? opcFiguras(todas, false) : opcTiempos(), correcta: fig,
+          visual: svgFigura(fig, 70), sonar: null,
+          dato: `${FIGURAS[fig].nombre.toUpperCase()} = ${FIGURAS[fig].tiempos.toUpperCase()}`,
+          explicacion: 'Blanca: cabeza hueca, 2 tiempos. Negra: cabeza rellena, 1 tiempo. Corchea: rellena con banderita, ½ tiempo.',
+        });
+      }
+      return mezclar(preguntas);
+    }
+
+    // Bonus: familias de instrumentos
+    function genOrquesta(nivel) {
+      const ids = [['cuerdas', 'percusion'], ['cuerdas', 'metal', 'percusion'], ['cuerdas', 'madera', 'metal', 'percusion']][nivel];
+      const familias = FAMILIAS.filter(f => ids.includes(f.id));
+      let elegidos;
+      do { elegidos = mezclar(INSTRUMENTOS.filter(x => ids.includes(x.familia))).slice(0, 5); }
+      while (new Set(elegidos.map(x => x.familia)).size < Math.min(ids.length, 3));
+      return elegidos.map(ins => ({
+        texto: '¿A qué familia pertenece?', opciones: familias, correcta: ins.familia,
+        visual: `<div class="text-4xl sm:text-5xl">${ins.emoji}</div><div class="orbitron text-xl sm:text-3xl font-black text-white">${ins.nombre}</div>`,
+        sonar: null,
+        dato: `FAMILIA: ${FAMILIAS.find(f => f.id === ins.familia).label.toUpperCase()}`,
+        explicacion: ins.dato,
+      }));
+    }
+
+    /* =============================================================
+       PLANETAS
+       ============================================================= */
+    const PLANETAS = [
+      { id: 'notas', grado: '4.º grado', nombre: 'Planeta Do‑Re‑Mi', icono: '🪐', c1: '#ff4d6d', c2: '#7c3aed', tipo: 'beats',
+        tema: 'Las notas Do, Re, Mi, Fa y Sol', generar: null,
+        niveles: ['Do, Mi y Sol · con pistas', 'Las 5 notas · con pistas', 'Notas y duraciones · sin pistas'],
+        zum: 'Una nave enemiga ataca con melodías. Escucha su ataque (siempre empieza con un Do de referencia) y devuélveselo escribiéndolo en tu rejilla de beats. ¡Cada acierto agrega un instrumento a tu pista!' },
+      { id: 'altura', grado: '5.º grado', nombre: 'Planeta Eco', icono: '🌋', c1: '#ff9f1c', c2: '#b91c1c',
+        tema: 'Graves y agudos · notas largas y cortas', generar: genAltura,
+        niveles: ['Grave o agudo', 'Larga o corta', 'Todo mezclado y más difícil'],
+        zum: 'Los volcanes de este planeta retumban grave 🐻 y los géiseres silban agudo 🐦. Algunos ecos duran mucho y otros un instante.' },
+      { id: 'tempo', grado: '6.º grado', nombre: 'Planeta Pulso', icono: '💫', c1: '#3dff9a', c2: '#0e7490',
+        tema: 'Tempo rápido y lento', generar: genTempo,
+        niveles: ['Rápido o lento', '¿Acelera o frena?', 'Tempos más parecidos'],
+        zum: 'El corazón de este planeta late con música. El tempo es la velocidad de ese latido: puede ir lento como tortuga 🐢 o rápido como conejo 🐇.' },
+      { id: 'ritmo', grado: '7.º grado', nombre: 'Planeta Ritmo', icono: '🥁', c1: '#4dc3ff', c2: '#1e3a8a',
+        tema: 'Figuras rítmicas: blanca, negra y corchea', generar: genRitmo,
+        niveles: ['Blanca o corchea', 'Las 3 figuras', 'Escuchar y leer figuras'],
+        zum: 'En este planeta todo se mueve al pulso. Cada figura dice cuánto dura un sonido: la blanca 2 tiempos, la negra 1 y la corchea medio.' },
+      { id: 'orquesta', grado: 'Bonus · todos los grados', nombre: 'Nebulosa Orquesta', icono: '🎻', c1: '#f0abfc', c2: '#6d28d9',
+        tema: 'Familias de instrumentos', generar: genOrquesta,
+        niveles: ['Cuerdas o percusión', '+ Viento metal', 'Las 4 familias'],
+        zum: 'Una orquesta entera flota en esta nebulosa. Los instrumentos se agrupan en familias según cómo producen el sonido.' },
+    ];
+
+    /* =============================================================
+       PROGRESO (guardado en el navegador)
+       ============================================================= */
+    let progreso = leer('progreso', {});
+    function datosPlaneta(id) {
+      if (!progreso[id]) progreso[id] = { lab: false, estrellas: [-1, -1, -1] };
+      return progreso[id];
+    }
+    const guardarProgreso = () => guardar('progreso', progreso);
+    const fragmentosGanados = () => PLANETAS.map(p => datosPlaneta(p.id).estrellas[2] >= 1);
+    const estrellasTexto = (n) => n < 0 ? '' : '⭐'.repeat(n) + '☆'.repeat(3 - n);
+
+    /* =============================================================
+       PANTALLAS
+       ============================================================= */
+    const PANTALLAS = ['pantalla-inicio', 'pantalla-ayuda', 'pantalla-mapa', 'pantalla-planeta', 'pantalla-lab', 'pantalla-juego', 'pantalla-beats', 'pantalla-estudio', 'pantalla-meteoros', 'pantalla-final', 'pantalla-historia'];
+    function mostrar(id) {
+      Motor.parar();
+      pararMeteoros();
+      limpiarTimersBeats();
+      detener();
+      pararLab();
+      pararArcade();
+      salirSobrecarga();
+      PANTALLAS.forEach(p => $(p).classList.toggle('hidden', p !== id));
+      $(id).classList.remove('aparecer'); void $(id).offsetWidth; $(id).classList.add('aparecer');
+      window.scrollTo({ top: 0 });
+    }
+    function confeti() {
+      const caja = $('confeti');
+      const colores = ['#ff4d6d', '#ff9f1c', '#ffe14d', '#3dff9a', '#4dc3ff', '#f0abfc'];
+      for (let i = 0; i < 70; i++) {
+        const p = document.createElement('i');
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.background = colores[i % colores.length];
+        p.style.animationDelay = Math.random() * 0.6 + 's';
+        caja.appendChild(p);
+        setTimeout(() => p.remove(), 2600);
+      }
+    }
+    function pintarFragmentos(contenedor) {
+      const ganados = fragmentosGanados();
+      contenedor.innerHTML = ganados.map((g, i) => `<div class="fragmento ${g ? 'ok' : ''}">${g ? '🎵' : '🔒'}<span class="sr-only">Fragmento ${i + 1}</span></div>`).join('');
+      return ganados.filter(Boolean).length;
+    }
+
+    /* ---------- Mapa ---------- */
+    function abrirMapa() {
+      mostrar('pantalla-mapa');
+      const n = pintarFragmentos($('fragmentos-mapa'));
+      $('txt-fragmentos').textContent = n;
+      $('btn-final-historia-wrap').classList.toggle('hidden', n < 5);
+      $('planetas').innerHTML = '';
+      PLANETAS.forEach((p, i) => {
+        const d = datosPlaneta(p.id);
+        const total = d.estrellas.reduce((a, e) => a + Math.max(0, e), 0);
+        const b = document.createElement('button');
+        b.className = 'planeta-btn rounded-2xl p-3 sm:p-4 flex items-center gap-4 text-left' + (i === 4 ? ' sm:col-span-2' : '');
+        b.style.setProperty('--c1', p.c1);
+        b.innerHTML = `
+          <div class="esfera" style="--c1:${p.c1};--c2:${p.c2}">${p.icono}</div>
+          <div class="min-w-0">
+            <div class="orbitron text-[11px] sm:text-xs text-cyan-300">${p.grado.toUpperCase()}</div>
+            <div class="orbitron text-lg sm:text-xl font-black text-white">${p.nombre}</div>
+            <div class="text-sm sm:text-base text-slate-300 leading-snug">${p.tema}</div>
+            <div class="text-sm mt-1 text-amber-200">⭐ ${total}/9 ${fragmentosGanados()[i] ? '· 🎵 fragmento recuperado' : ''}</div>
+          </div>`;
+        b.addEventListener('click', () => abrirPlaneta(p));
+        $('planetas').appendChild(b);
+      });
+      // Tarjeta del modo arcade "Lluvia de Meteoros"
+      const mejores = progreso.meteoros || {};
+      const totalMet = Object.values(mejores).reduce((a, e) => a + e, 0);
+      const m = document.createElement('button');
+      m.className = 'planeta-btn rounded-2xl p-3 sm:p-4 flex items-center gap-4 text-left sm:col-span-2';
+      m.style.setProperty('--c1', '#22d3ee');
+      m.innerHTML = `
+        <div class="esfera" style="--c1:#22d3ee;--c2:#1e1b4b">☄️</div>
+        <div class="min-w-0">
+          <div class="orbitron text-[11px] sm:text-xs text-cyan-300">MODO ARCADE · TODOS LOS GRADOS</div>
+          <div class="orbitron text-lg sm:text-xl font-black text-white">🎹 Lluvia de Meteoros</div>
+          <div class="text-sm sm:text-base text-slate-300 leading-snug">Toca las notas que caen y toca canciones de verdad</div>
+          <div class="text-sm mt-1 text-amber-200">⭐ ${totalMet}/${CANCIONES.length * 3}</div>
+        </div>`;
+      m.addEventListener('click', abrirMeteoros);
+      $('planetas').appendChild(m);
+    }
+
+    /* ---------- Planeta ---------- */
+    let planeta = null, nivel = 0;
+    function abrirPlaneta(p) {
+      planeta = p;
+      mostrar('pantalla-planeta');
+      const d = datosPlaneta(p.id);
+      const esfera = $('pl-esfera');
+      esfera.style.setProperty('--c1', p.c1); esfera.style.setProperty('--c2', p.c2);
+      esfera.textContent = p.icono;
+      $('pl-grado').textContent = p.grado.toUpperCase();
+      $('pl-nombre').textContent = p.nombre;
+      $('pl-tema').textContent = p.tema;
+      $('pl-zum').innerHTML = `<b class="text-emerald-300">Zum:</b> ${p.zum}`;
+      $('lab-estado').textContent = d.lab ? '✅ Completado · puedes volver a experimentar' : '👉 Empieza aquí: experimenta y descubre';
+      $('niveles').innerHTML = '';
+      p.niveles.forEach((desc, k) => {
+        const desbloqueado = progreso.profesor || k === 0 || d.estrellas[k - 1] >= 1;
+        const b = document.createElement('button');
+        b.className = 'nivel-btn rounded-2xl p-3 text-left';
+        b.disabled = !desbloqueado;
+        b.innerHTML = `
+          <div class="orbitron font-black text-white text-base sm:text-lg">${desbloqueado ? '' : '🔒 '}Nivel ${k + 1}</div>
+          <div class="text-sm text-slate-300">${desc}</div>
+          <div class="text-lg mt-1">${d.estrellas[k] >= 0 ? estrellasTexto(d.estrellas[k]) : (desbloqueado ? '<span class="text-cyan-300 text-sm font-bold">¡Listo para jugar!</span>' : '<span class="text-slate-400 text-sm">Gana el nivel anterior</span>')}</div>`;
+        b.addEventListener('click', () => { nivel = k; despegar(); });
+        $('niveles').appendChild(b);
+      });
+      // Estudio libre: solo en el planeta de beats, se desbloquea al ganar el nivel 3
+      const est = $('btn-estudio');
+      est.classList.toggle('hidden', p.tipo !== 'beats');
+      const libre = progreso.profesor || d.estrellas[2] >= 1;
+      est.disabled = !libre;
+      est.style.opacity = libre ? 1 : 0.5;
+      $('estudio-estado').textContent = libre ? '¡Desbloqueado! Crea tu propia canción espacial' : '🔒 Gana el nivel 3 para desbloquearlo';
+    }
+
+    function despegar() {
+      iniciarAudio();
+      $('despegue-texto').textContent = `${planeta.nombre} · Nivel ${nivel + 1}`;
+      $('despegue').classList.add('activo');
+      $('estrellas').classList.add('hiper');
+      [110, 147, 196, 262].forEach((f, i) => tocar(f, 0.4, i * 0.25, 'sawtooth', 0.06));
+      setTimeout(() => {
+        $('despegue').classList.remove('activo');
+        $('estrellas').classList.remove('hiper');
+        empezarNivel();
+      }, 1500);
+    }
+
+    /* =============================================================
+       LABORATORIOS (uno por planeta): experimentar antes de jugar
+       ============================================================= */
+    let lab = { retos: [], limpiar: null };
+    function pararLab() {
+      if (lab.limpiar) { lab.limpiar(); lab.limpiar = null; }
+    }
+    function definirRetos(lista) {
+      lab.retos = lista.map(texto => ({ texto, hecho: false }));
+      pintarRetos();
+    }
+    function pintarRetos() {
+      $('lab-retos').innerHTML = lab.retos.map(r => `<div class="reto ${r.hecho ? 'hecho' : ''}"><span class="check">${r.hecho ? '✓' : ''}</span><span>${r.texto}</span></div>`).join('');
+      const listo = lab.retos.every(r => r.hecho);
+      $('btn-lab-listo').disabled = !listo;
+      if (listo && !datosPlaneta(planeta.id).lab) {
+        datosPlaneta(planeta.id).lab = true;
+        guardarProgreso();
+        beepVictoria();
+      }
+    }
+    function cumplir(i) {
+      if (!lab.retos[i] || lab.retos[i].hecho) return;
+      lab.retos[i].hecho = true;
+      pintarRetos();
+    }
+
+    function abrirLab() {
+      mostrar('pantalla-lab');
+      iniciarAudio();
+      $('lab-planeta').textContent = `🔬 LABORATORIO · ${planeta.nombre.toUpperCase()}`;
+      const c = $('lab-contenido');
+      c.innerHTML = '';
+      LABS[planeta.id](c);
+      if (datosPlaneta(planeta.id).lab) $('btn-lab-listo').disabled = false;
+    }
+
+    const LABS = {
+      /* --- 4.º: la Matriz de Gravedad (rejilla de beats) --- */
+      notas(c) {
+        $('lab-titulo').textContent = 'La Matriz de Gravedad';
+        $('lab-zum').innerHTML = '<b class="text-emerald-300">Zum:</b> Esta rejilla es una partitura secreta. <b>Abajo</b> están las notas graves (Do) y <b>arriba</b> las agudas (Sol). De <b>izquierda a derecha</b> pasa el tiempo. Un bloque corto es una nota corta; una barra larga, una nota larga. ¡Toca la rejilla y escucha!';
+        c.innerHTML = '<div id="lab-rejilla"></div>';
+        definirRetos(['Enciende un bloque en la fila de Do (la de abajo)', 'Arma la escalera: Do, Re, Mi, Fa y Sol de izquierda a derecha', 'Dibuja una barra láser muy larga (4 espacios)']);
+        Rejilla.montar($('lab-rejilla'), (bloques) => {
+          if (bloques.some(b => b.r === 0)) cumplir(0);
+          // escalera: un bloque por fila, cada uno más a la derecha que el anterior
+          let col = -1, ok = true;
+          for (let r = 0; r < 5 && ok; r++) {
+            const sig = bloques.filter(b => b.r === r && b.c > col).sort((x, y) => x.c - y.c)[0];
+            if (sig) col = sig.c; else ok = false;
+          }
+          if (ok) cumplir(1);
+          if (bloques.some(b => b.len === 4)) cumplir(2);
+        });
+        Motor.capas = 0; Motor.bpm = 110;
+        Motor.iniciar(true);
+        lab.limpiar = () => Motor.parar();
+      },
+
+      /* --- 5.º: palanca de altura y botón de duración --- */
+      altura(c) {
+        $('lab-titulo').textContent = 'El generador de ecos';
+        $('lab-zum').innerHTML = '<b class="text-emerald-300">Zum:</b> Enciende el generador y mueve la palanca. ¿Oyes cómo cambia de <b>grave</b> 🐻 a <b>agudo</b> 🐦? Después mantén presionado el botón para hacer notas <b>largas</b> o <b>cortas</b>.';
+        c.innerHTML = `
+          <div class="flex items-center justify-between text-3xl"><span>🐻</span><span id="lab-animal" class="text-5xl">🐻</span><span>🐦</span></div>
+          <input id="lab-palanca" class="palanca mt-2" type="range" min="0" max="100" value="20" aria-label="Palanca de grave a agudo">
+          <div class="flex justify-between orbitron text-xs text-cyan-300 mt-1"><span>GRAVE</span><span id="lab-hz">—</span><span>AGUDO</span></div>
+          <div class="text-center mt-3"><button id="lab-encender" class="boton-control orbitron rounded-full px-5 py-2 text-sm font-bold text-cyan-100">▶ Encender generador</button></div>
+          <hr class="border-cyan-900 my-4">
+          <div class="text-center">
+            <button id="lab-mantener" class="cristal orbitron rounded-2xl px-6 py-4 text-lg font-black text-white select-none" style="--c:#f0abfc;touch-action:none">🎵 Mantén presionado</button>
+            <div class="h-3 rounded-full bg-slate-700 mt-3 overflow-hidden"><div id="lab-barra" class="h-full bg-fuchsia-300" style="width:0"></div></div>
+            <p id="lab-duracion" class="orbitron text-cyan-100 mt-2 min-h-[1.5em]"></p>
+          </div>`;
+        definirRetos(['Haz un sonido muy grave (menos de 150 Hz) 🐻', 'Haz un sonido muy agudo (más de 1000 Hz) 🐦', 'Haz una nota corta (menos de medio segundo) ⚡', 'Haz una nota larga (más de 2 segundos) 🌊']);
+        // Generador continuo
+        let osc = null, gan = null;
+        const frecuencia = () => Math.round(80 * Math.pow(20, $('lab-palanca').value / 100));   // de 80 a 1600 Hz
+        const actualizar = () => {
+          const f = frecuencia();
+          $('lab-hz').textContent = `${f} Hz`;
+          const v = $('lab-palanca').value;
+          $('lab-animal').textContent = v < 30 ? '🐻' : v < 55 ? '🐶' : v < 80 ? '🐱' : '🐦';
+          if (osc) {
+            osc.frequency.setTargetAtTime(f, audio.currentTime, 0.03);
+            if (f < 150) cumplir(0);
+            if (f > 1000) cumplir(1);
+          }
+        };
+        const apagar = () => {
+          if (!osc) return;
+          gan.gain.setTargetAtTime(0.0001, audio.currentTime, 0.05);
+          osc.stop(audio.currentTime + 0.3);
+          osc = null;
+          $('lab-encender').textContent = '▶ Encender generador';
+          $('lab-encender').classList.remove('activo');
+        };
+        $('lab-palanca').addEventListener('input', actualizar);
+        $('lab-encender').addEventListener('click', () => {
+          if (osc) return apagar();
+          osc = audio.createOscillator(); gan = audio.createGain();
+          osc.type = 'triangle'; osc.frequency.value = frecuencia();
+          gan.gain.setValueAtTime(0.0001, audio.currentTime);
+          gan.gain.exponentialRampToValueAtTime(0.35, audio.currentTime + 0.05);
+          osc.connect(gan).connect(salida); osc.start();
+          $('lab-encender').textContent = '⏹ Apagar generador';
+          $('lab-encender').classList.add('activo');
+          actualizar();
+        });
+        actualizar();
+        // Nota que dura lo que dure el dedo presionado
+        let nOsc = null, nGan = null, inicio = 0, animar = 0;
+        const btn = $('lab-mantener');
+        const empezar = (e) => {
+          e.preventDefault();
+          if (nOsc) return;
+          nOsc = audio.createOscillator(); nGan = audio.createGain();
+          nOsc.type = 'triangle'; nOsc.frequency.value = 392;
+          nGan.gain.setValueAtTime(0.0001, audio.currentTime);
+          nGan.gain.exponentialRampToValueAtTime(0.4, audio.currentTime + 0.02);
+          nOsc.connect(nGan).connect(salida); nOsc.start();
+          inicio = performance.now();
+          const paso = () => {
+            const s = (performance.now() - inicio) / 1000;
+            $('lab-barra').style.width = Math.min(100, s / 3 * 100) + '%';
+            $('lab-duracion').textContent = `${s.toFixed(1)} s`;
+            animar = requestAnimationFrame(paso);
+          };
+          paso();
+        };
+        const terminar = () => {
+          if (!nOsc) return;
+          cancelAnimationFrame(animar);
+          nGan.gain.setTargetAtTime(0.0001, audio.currentTime, 0.03);
+          nOsc.stop(audio.currentTime + 0.2);
+          nOsc = null;
+          const s = (performance.now() - inicio) / 1000;
+          const tipo = s < 0.5 ? 'corta ⚡' : s > 2 ? 'larga 🌊' : 'mediana';
+          $('lab-duracion').textContent = `Duró ${s.toFixed(1)} s: nota ${tipo}`;
+          if (s < 0.5) cumplir(2);
+          if (s > 2) cumplir(3);
+        };
+        btn.addEventListener('pointerdown', empezar);
+        ['pointerup', 'pointerleave', 'pointercancel'].forEach(ev => btn.addEventListener(ev, terminar));
+        lab.limpiar = () => { apagar(); terminar(); };
+      },
+
+      /* --- 6.º: el motor de tempo --- */
+      tempo(c) {
+        $('lab-titulo').textContent = 'El motor de tempo';
+        $('lab-zum').innerHTML = '<b class="text-emerald-300">Zum:</b> La nave avanza al ritmo de la música. Enciende el motor y mueve la palanca: el <b>tempo</b> es cuántos pulsos hay en un minuto. ¡Mira cómo cambia el nombre del tempo!';
+        c.innerHTML = `
+          <div class="relative h-16 rounded-xl overflow-hidden" style="background:linear-gradient(90deg,#0b1033,#062033)">
+            <div id="lab-cohete" class="absolute top-2 text-4xl" style="left:0;transition:left .15s;transform:rotate(45deg)">🚀</div>
+          </div>
+          <div class="flex items-center justify-between mt-3"><span class="text-3xl">🐢</span>
+            <div class="text-center"><div id="lab-bpm" class="orbitron text-3xl font-black text-white">100</div><div class="orbitron text-[10px] text-cyan-300">PULSOS POR MINUTO</div></div>
+            <span class="text-3xl">🐇</span></div>
+          <input id="lab-palanca" class="palanca mt-2" type="range" min="40" max="200" value="100" aria-label="Palanca de tempo">
+          <p id="lab-termino" class="text-center orbitron text-lg sm:text-xl font-black text-cyan-100 mt-3"></p>
+          <div class="text-center mt-3"><button id="lab-encender" class="boton-control orbitron rounded-full px-5 py-2 text-sm font-bold text-cyan-100">▶ Encender motor</button></div>`;
+        definirRetos(['Pon un tempo lento: menos de 70 pulsos 🐢', 'Pon un tempo rápido: más de 140 pulsos 🐇', 'Escucha un tempo moderado (Andante, entre 76 y 107) 🚶']);
+        const termino = (b) => b < 66 ? 'Largo · muy lento 🐢' : b < 76 ? 'Adagio · lento 🐢' : b < 108 ? 'Andante · al paso 🚶' : b < 168 ? 'Allegro · rápido 🐇' : 'Presto · ¡muy rápido! 🚀';
+        let encendido = false, siguiente = 0, golpe = 0, temporizador = 0, pos = 0, tiempoEncendido = {};
+        const bpm = () => Number($('lab-palanca').value);
+        const actualizar = () => {
+          $('lab-bpm').textContent = bpm();
+          $('lab-termino').textContent = termino(bpm());
+        };
+        const programar = () => {   // programa los golpes un poquito antes de que ocurran
+          while (siguiente < audio.currentTime + 0.12) {
+            const b = bpm();
+            tocar(MELODIA[golpe % 8], Math.min(0.4, 60 / b * 0.8), siguiente - audio.currentTime, 'triangle', 0.4);
+            const g = golpe;
+            setTimeout(() => {
+              pos = (pos + 7) % 92;
+              $('lab-cohete').style.left = pos + '%';
+              if (g % 1 === 0) {
+                const zona = b < 70 ? 0 : b > 140 ? 1 : (b >= 76 && b < 108) ? 2 : -1;
+                if (zona >= 0) { tiempoEncendido[zona] = (tiempoEncendido[zona] || 0) + 1; if (tiempoEncendido[zona] >= 4) cumplir(zona); }
+              }
+            }, Math.max(0, (siguiente - audio.currentTime) * 1000));
+            siguiente += 60 / b;
+            golpe++;
+          }
+        };
+        const apagar = () => {
+          encendido = false; clearInterval(temporizador);
+          $('lab-encender').textContent = '▶ Encender motor'; $('lab-encender').classList.remove('activo');
+        };
+        $('lab-palanca').addEventListener('input', () => { actualizar(); tiempoEncendido = {}; });
+        $('lab-encender').addEventListener('click', () => {
+          if (encendido) return apagar();
+          encendido = true; siguiente = audio.currentTime + 0.05; golpe = 0;
+          temporizador = setInterval(programar, 25);
+          $('lab-encender').textContent = '⏹ Apagar motor'; $('lab-encender').classList.add('activo');
+        });
+        actualizar();
+        lab.limpiar = apagar;
+      },
+
+      /* --- 7.º: la línea de tiempo de las figuras --- */
+      ritmo(c) {
+        $('lab-titulo').textContent = 'La línea del tiempo';
+        $('lab-zum').innerHTML = '<b class="text-emerald-300">Zum:</b> Las 4 cajas son 4 <b>tiempos</b> (pulsos). Toca cada figura y mira cuántas cajas ocupa cada sonido: la <b>blanca</b> ocupa 2, la <b>negra</b> 1 y la <b>corchea</b> media caja.';
+        c.innerHTML = `
+          <div class="grid grid-cols-4 gap-2" id="lab-celdas">${[1, 2, 3, 4].map(i => `<div class="celda"><span class="absolute -top-5 left-1 orbitron text-[10px] text-cyan-300">${i}</span></div>`).join('')}</div>
+          <div class="relative mt-2 h-12" id="lab-bloques"></div>
+          <div class="grid grid-cols-3 gap-2 sm:gap-3 mt-4">${Object.entries(FIGURAS).map(([id, f]) => `
+            <button class="cristal rounded-2xl py-3 flex flex-col items-center" style="--c:${f.color}" data-fig="${id}">
+              <span class="relative">${svgFigura(id, 54)}</span>
+              <span class="relative orbitron font-black text-white text-base sm:text-lg">${f.nombre}</span>
+              <span class="relative text-xs sm:text-sm font-bold text-slate-200">${f.tiempos}</span>
+            </button>`).join('')}</div>`;
+        definirRetos(['Escucha la blanca (2 tiempos)', 'Escucha la negra (1 tiempo)', 'Escucha la corchea (½ tiempo)']);
+        const celdas = [...c.querySelectorAll('.celda')];
+        let timers = [];
+        c.querySelectorAll('[data-fig]').forEach(b => b.addEventListener('click', () => {
+          detener(); timers.forEach(clearTimeout); timers = [];
+          const id = b.dataset.fig, f = FIGURAS[id];
+          // dibuja los bloques: cada sonido ocupa su duración en la línea
+          $('lab-bloques').innerHTML = f.notas.map(n => `<div class="bloque" style="color:${f.color};background:${f.color};left:calc(${n * 25}% + 2px);width:calc(${f.duracion * 25}% - 6px)"></div>`).join('');
+          const bloques = [...$('lab-bloques').children];
+          tocarFigura(id, false);
+          for (let i = 0; i < 4; i++) {
+            timers.push(setTimeout(() => celdas.forEach((x, j) => x.classList.toggle('pulso', j === i)), i * PULSO * 1000));
+          }
+          f.notas.forEach((n, k) => {
+            timers.push(setTimeout(() => bloques[k].classList.add('on'), n * PULSO * 1000));
+            timers.push(setTimeout(() => bloques[k].classList.remove('on'), (n + f.duracion) * PULSO * 1000 - 60));
+          });
+          timers.push(setTimeout(() => { celdas.forEach(x => x.classList.remove('pulso')); cumplir(['blanca', 'negra', 'corchea'].indexOf(id)); }, 4 * PULSO * 1000));
+        }));
+        lab.limpiar = () => timers.forEach(clearTimeout);
+      },
+
+      /* --- Bonus: tarjetas de las familias --- */
+      orquesta(c) {
+        $('lab-titulo').textContent = 'Archivo de la orquesta';
+        $('lab-zum').innerHTML = '<b class="text-emerald-300">Zum:</b> Lo que decide la familia de un instrumento es <b>cómo produce el sonido</b>, no de qué material está hecho. Abre cada tarjeta para descubrirlo.';
+        c.innerHTML = `<div class="grid grid-cols-2 gap-2 sm:gap-3">${FAMILIAS.map((f, i) => `
+          <button class="cristal familia-card rounded-2xl p-3 text-left min-h-[132px]" style="--c:${f.color}" data-i="${i}">
+            <span class="relative block text-3xl">${f.icono}</span>
+            <span class="relative block orbitron font-black text-white text-base sm:text-lg">${f.label}</span>
+            <span class="relative block text-xs sm:text-sm text-slate-200 font-sans font-bold dorso" hidden>${f.como}<br><span class="text-slate-300 font-semibold">${f.ejemplos}</span></span>
+            <span class="relative block text-xs text-cyan-200 font-sans frente">Toca para abrir 👆</span>
+          </button>`).join('')}</div>`;
+        definirRetos(FAMILIAS.map(f => `Descubre la familia: ${f.label}`));
+        c.querySelectorAll('.familia-card').forEach(b => b.addEventListener('click', () => {
+          const i = Number(b.dataset.i);
+          b.querySelector('.dorso').hidden = false;
+          b.querySelector('.frente').hidden = true;
+          tocar([392, 523.3, 659.3, 784][i], 0.3, 0, 'sine', 0.3);
+          cumplir(i);
+        }));
+      },
+    };
+
+    /* =============================================================
+       ARCADE: los asteroides caen y hay que dispararle al correcto
+       ============================================================= */
+    const VELOCIDAD = [11, 9, 7];          // segundos que tarda en caer la ola (según nivel)
+    let preguntas = [], resultados = [], ronda = 0, puntos = 0, racha = 0, respondida = true, puntaje = 0;
+    let ola = { cuadro: 0, inicio: 0, duracion: 10, asteroides: [] };
+
+    function pararArcade() { cancelAnimationFrame(ola.cuadro); }
+
+    function empezarNivel() {
+      if (planeta.tipo === 'beats') return empezarBeats();
+      mostrar('pantalla-juego');
+      preguntas = planeta.generar(nivel);
+      resultados = []; ronda = 0; puntos = 0; racha = 0; puntaje = 0;
+      $('txt-planeta').textContent = `◉ ${planeta.nombre.toUpperCase()}`;
+      $('txt-nivel').textContent = `NIVEL ${nivel + 1}`;
+      nuevaPregunta();
+    }
+
+    function pintarPips(contenedor, marcarActual) {
+      contenedor.innerHTML = Array.from({ length: 5 }, (_, i) => {
+        const clase = resultados[i] === true ? 'ok' : resultados[i] === false ? 'no' : (marcarActual && i === ronda ? 'actual' : '');
+        return `<div class="pip ${clase}"></div>`;
+      }).join('');
+    }
+    function pintarMarcador() {
+      $('txt-ronda').textContent = ronda + 1;
+      $('txt-puntos').textContent = puntos;
+      $('txt-racha').textContent = `🔥${racha}`;
+      $('txt-racha').className = 'ml-1 ' + (racha >= 3 ? 'racha-on' : 'text-slate-500');
+      pintarEnergia();
+    }
+    function ponerEstado(texto, color = 'text-cyan-100') {
+      const e = $('txt-estado');
+      e.className = e.className.replace(/text-(cyan|emerald|rose)-\d+/g, '').trim() + ' ' + color;
+      e.textContent = texto;
+    }
+
+    function nuevaPregunta() {
+      detener(); pararArcade();
+      respondida = false;
+      const q = preguntas[ronda];
+      pintarMarcador();
+      pintarPips($('pips'), true);
+      $('txt-dato').textContent = 'DATO: ???';
+      $('txt-pregunta').textContent = q.texto;
+      $('btn-siguiente').classList.add('hidden');
+      $('btn-repetir').classList.toggle('hidden', !q.sonar);
+      $('btn-pista').classList.toggle('hidden', !q.pista);
+      if (q.pista) $('btn-pista').textContent = q.pista.label;
+
+      const visual = $('visual'), lienzo = $('osciloscopio');
+      if (q.visual) {
+        visual.innerHTML = q.visual; visual.classList.remove('hidden'); visual.classList.add('flex'); lienzo.classList.add('hidden');
+      } else {
+        visual.classList.add('hidden'); visual.classList.remove('flex'); lienzo.classList.remove('hidden');
+      }
+
+      // Crea la ola de asteroides (uno por opción, en carriles)
+      const arena = $('arena');
+      arena.querySelectorAll('.asteroide, .laser, .boom').forEach(x => x.remove());
+      const n = q.opciones.length;
+      ola.asteroides = q.opciones.map((op, i) => {
+        const a = document.createElement('button');
+        a.className = 'asteroide';
+        a.style.setProperty('--c', op.color);
+        a.style.left = `${((i + 0.5) / n) * 100}%`;
+        a.dataset.id = op.id;
+        a.setAttribute('aria-label', op.label);
+        a.innerHTML = (op.html ? op.html : op.icono ? `<span class="text-xl leading-none">${op.icono}</span>` : '') +
+          `<span class="leading-tight text-center px-1 ${op.label.length > 7 ? 'text-[10px]' : 'text-sm sm:text-base'}">${op.label}</span><span class="num">${i + 1}</span>`;
+        a.addEventListener('pointerdown', (e) => { e.preventDefault(); disparar(op, a); });
+        arena.appendChild(a);
+        return { el: a, op, desfase: (i % 2) * 18 };
+      });
+      $('nave-arcade').style.left = '50%';
+
+      // Sonido y caída
+      let largo = 0;
+      if (q.sonar) {
+        ponerEstado('🔊 ¡Escucha la señal!');
+        largo = q.sonar();
+      } else {
+        ponerEstado('👀 Lee la pantalla y dispara al asteroide correcto');
+      }
+      ola.duracion = VELOCIDAD[nivel] * (enSobrecarga() ? 0.8 : 1) + largo;
+      ola.inicio = performance.now();
+      moverOla();
+    }
+
+    function moverOla() {
+      const arena = $('arena');
+      const alto = arena.clientHeight;
+      const limite = alto - 64 - 40;      // línea de peligro
+      const t = (performance.now() - ola.inicio) / 1000;
+      const avance = Math.min(1, t / ola.duracion);
+      ola.asteroides.forEach(({ el, desfase }) => {
+        const y = -70 + desfase + avance * (limite + 70 - desfase);
+        el.style.transform = `translateY(${y}px)`;
+        el.style.setProperty('--pos', `translateY(${y}px)`);
+      });
+      if (avance >= 1) return tiempoAgotado();
+      ola.cuadro = requestAnimationFrame(moverOla);
+    }
+
+    // Dibuja el láser desde la nave hasta el asteroide
+    function laser(objetivo) {
+      const arena = $('arena').getBoundingClientRect();
+      const r = objetivo.getBoundingClientRect();
+      const nave = $('nave-arcade');
+      nave.style.left = `${((r.left + r.width / 2 - arena.left) / arena.width) * 100}%`;
+      const x1 = r.left + r.width / 2 - arena.left, y1 = arena.height - 40;
+      const x2 = x1, y2 = r.top + r.height / 2 - arena.top;
+      const l = document.createElement('div');
+      l.className = 'laser';
+      l.style.left = x1 + 'px'; l.style.top = y1 + 'px';
+      l.style.width = Math.hypot(x2 - x1, y2 - y1) + 'px';
+      l.style.transform = `rotate(${Math.atan2(y2 - y1, x2 - x1)}rad)`;
+      $('arena').appendChild(l);
+      setTimeout(() => l.remove(), 400);
+      sonidoLaser();
+      return { x: x2, y: y2 };
+    }
+
+    function disparar(op, el) {
+      if (respondida) return;
+      respondida = true;
+      pararArcade();
+      detener();
+      const q = preguntas[ronda];
+      const acierto = op.id === q.correcta;
+      resultados[ronda] = acierto;
+      const p = laser(el);
+      const correcta = ola.asteroides.find(a => a.op.id === q.correcta);
+      ola.asteroides.forEach(a => { if (a !== correcta && a.el !== el) a.el.classList.add('apagado'); });
+      $('txt-dato').textContent = q.dato;
+
+      if (acierto) {
+        puntos++; racha++;
+        sumarPuntaje((performance.now() - ola.inicio) / 1000 / ola.duracion);
+        if (racha >= 3) entrarSobrecarga();
+        el.classList.add('ok');
+        const boom = document.createElement('div');
+        boom.className = 'boom'; boom.textContent = '💥';
+        boom.style.left = p.x + 'px'; boom.style.top = p.y + 'px';
+        $('arena').appendChild(boom);
+        beepVictoria();
+        ponerEstado(`✅ ${racha >= 3 ? `¡Racha de ${racha}! 🔥` : '¡Impacto directo!'} ${q.explicacion}`, 'text-emerald-300');
+      } else {
+        racha = 0;
+        salirSobrecarga();
+        el.classList.add('mal');
+        correcta.el.classList.add('ok');
+        zumbidoError();
+        sacudir();
+        ponerEstado(`⚠️ Era "${correcta.op.label}". ${q.explicacion}`, 'text-rose-300');
+      }
+      terminarPregunta();
+    }
+
+    function tiempoAgotado() {
+      if (respondida) return;
+      respondida = true;
+      const q = preguntas[ronda];
+      resultados[ronda] = false;
+      racha = 0;
+      salirSobrecarga();
+      const correcta = ola.asteroides.find(a => a.op.id === q.correcta);
+      ola.asteroides.forEach(a => { if (a !== correcta) a.el.classList.add('apagado'); });
+      correcta.el.classList.add('mal');
+      $('txt-dato').textContent = q.dato;
+      zumbidoError();
+      sacudir();
+      ponerEstado(`☄️ ¡Los asteroides llegaron! Era "${correcta.op.label}". ${q.explicacion}`, 'text-rose-300');
+      terminarPregunta();
+    }
+
+    function sacudir() {
+      const nave = $('nave');
+      nave.classList.remove('temblor', 'alerta-roja'); void nave.offsetWidth;
+      nave.classList.add('temblor', 'alerta-roja');
+    }
+
+    function terminarPregunta() {
+      pintarMarcador();
+      pintarPips($('pips'), false);
+      const sig = $('btn-siguiente');
+      sig.textContent = ronda + 1 < 5 ? 'Siguiente ➡' : '🏁 Ver resultados';
+      sig.classList.remove('hidden');
+      $('btn-pista').classList.add('hidden');
+    }
+
+    function siguiente() {
+      ronda++;
+      if (ronda < 5) nuevaPregunta();
+      else terminarNivel();
+    }
+
+    /* =============================================================
+       FINAL DEL NIVEL
+       ============================================================= */
+    const RANGOS = [
+      { min: 5, insignia: '👑', rango: 'Comandante Galáctico' },
+      { min: 4, insignia: '🌟', rango: 'Capitán Estelar' },
+      { min: 3, insignia: '🚀', rango: 'Piloto Espacial' },
+      { min: 2, insignia: '🛰️', rango: 'Navegante en Entrenamiento' },
+      { min: 0, insignia: '🧑‍🚀', rango: 'Cadete Explorador' },
+    ];
+
+    function terminarNivel() {
+      mostrar('pantalla-final');
+      $('final-puntaje').textContent = puntaje;
+      // Pad de DJ: solo en el planeta de beats, sobre la pista que armaron
+      const conDj = planeta.tipo === 'beats';
+      $('dj').classList.toggle('hidden', !conDj);
+      if (conDj) {
+        Motor.capas = Math.max(1, puntos);
+        Motor.bpm = 110;
+        $('dj-capas').textContent = Motor.capas;
+        Motor.iniciar(false);
+      }
+      const r = RANGOS.find(x => puntos >= x.min);
+      const estrellas = puntos >= 5 ? 3 : puntos >= 4 ? 2 : puntos >= 3 ? 1 : 0;
+      const d = datosPlaneta(planeta.id);
+      const teniaFragmento = d.estrellas[2] >= 1;
+      d.estrellas[nivel] = Math.max(d.estrellas[nivel], estrellas);
+      guardarProgreso();
+
+      $('final-titulo').textContent = `✦ ${planeta.nombre.toUpperCase()} · NIVEL ${nivel + 1} ✦`;
+      $('final-puntos').textContent = puntos;
+      $('final-insignia').textContent = r.insignia;
+      $('final-rango').textContent = r.rango;
+      $('final-estrellas').textContent = estrellasTexto(estrellas);
+      pintarPips($('final-pips'), false);
+
+      const gano = estrellas >= 1;
+      let mensaje;
+      if (!gano) {
+        mensaje = `Necesitas al menos 3 de 5 para avanzar. ${datosPlaneta(planeta.id).lab ? 'Vuelve al laboratorio 🔬 a experimentar otra vez' : 'Prueba primero el laboratorio 🔬'} y usa las pistas 📡. ¡Tú puedes!`;
+      } else if (nivel < 2) {
+        mensaje = `¡Bien hecho! Desbloqueaste el <b>nivel ${nivel + 2}</b>: será más difícil y los asteroides caerán más rápido.`;
+      } else if (!teniaFragmento) {
+        const total = fragmentosGanados().filter(Boolean).length;
+        mensaje = `¡Increíble! Recuperaste el <b>fragmento ${PLANETAS.indexOf(planeta) + 1}</b> de la Canción de Armonía 🎵. Llevas ${total} de 5. ${total === 5 ? '¡Ya tienes la canción completa! Ve al mapa para escucharla.' : '¡Escúchalo!'}`;
+        setTimeout(() => tocarFragmento(PLANETAS.indexOf(planeta)), 900);
+      } else {
+        mensaje = '¡Dominaste este planeta! Intenta conseguir ⭐⭐⭐ en todos los niveles o explora otro planeta.';
+      }
+      $('final-zum').innerHTML = `<b class="text-emerald-300">Zum:</b> ${mensaje}`;
+      $('btn-siguiente-nivel').classList.toggle('hidden', !(gano && nivel < 2));
+      if (estrellas >= 2) { fanfarria(); confeti(); }
+    }
+
+    /* =============================================================
+       MODO SOBRECARGA (3 aciertos seguidos): luces moradas/rojas,
+       puntos x2 y el ritmo se acelera
+       ============================================================= */
+    const enSobrecarga = () => $('nave').classList.contains('sobrecarga');
+    function entrarSobrecarga() {
+      if (enSobrecarga()) return;
+      $('nave').classList.add('sobrecarga');
+      Motor.bpm = 128;
+      [523.3, 784, 1046.5, 1568].forEach((f, i) => tocar(f, 0.15, 0.25 + i * 0.07, 'synth', 0.3));
+    }
+    function salirSobrecarga() {
+      $('nave').classList.remove('sobrecarga');
+      Motor.bpm = 110;
+    }
+    // Puntaje: 100 por acierto + hasta 50 por rapidez; x2 en sobrecarga
+    function sumarPuntaje(fraccionUsada) {
+      const bonus = Math.round(50 * (1 - Math.min(1, Math.max(0, fraccionUsada))));
+      puntaje += (100 + bonus) * (enSobrecarga() ? 2 : 1);
+    }
+    function pintarEnergia() {
+      document.querySelectorAll('.energia-barra').forEach(b => { b.style.width = (Math.min(racha, 3) / 3 * 100) + '%'; });
+      document.querySelectorAll('.txt-puntaje').forEach(e => { e.textContent = puntaje; });
+    }
+
+    /* =============================================================
+       MOTOR DE BEATS: repite en bucle 8 pasos (columnas). En cada paso
+       toca las capas de batería desbloqueadas y los bloques de la rejilla.
+       ============================================================= */
+    const CAPAS = ['🥁 Bombo', '👏 Caja y platillos', '🎸 Bajo', '✨ Arpegio', '🌌 Pad espacial'];
+    function groove(paso, r, capas, dur) {
+      if (capas >= 1 && (paso === 0 || paso === 4)) bombo(r);
+      if (capas >= 2) { if (paso === 2 || paso === 6) caja(r); platillo(r, paso % 2 ? 0.05 : 0.11); }
+      if (capas >= 3 && paso % 2 === 0) bajo(paso < 4 ? 65.41 : 98.0, r, dur * 1.8);        // Do grave y Sol grave
+      if (capas >= 4) tocar([523.3, 659.3, 784.0, 659.3][paso % 4], dur * 0.6, r, 'square', 0.035); // Do‑Mi‑Sol‑Mi
+      if (capas >= 5 && paso === 0) [130.8, 164.8, 196.0].forEach(f => tocar(f, dur * 8, r, 'synth', 0.08)); // acorde de Do
+    }
+
+    const Motor = {
+      bpm: 110, capas: 0, sonando: false, paso: 0, siguiente: 0, timer: 0, conRejilla: true,
+      dur() { return 60 / this.bpm / 2; },         // cada columna = medio pulso
+      iniciar(conRejilla = true) {
+        if (this.sonando) return;
+        iniciarAudio();
+        this.conRejilla = conRejilla;
+        this.sonando = true;
+        this.paso = 0;
+        this.siguiente = audio.currentTime + 0.08;
+        this.timer = setInterval(() => this.programar(), 25);
+      },
+      parar() {
+        clearInterval(this.timer);
+        this.sonando = false;
+        Rejilla.ocultarEscaner();
+      },
+      // Programa los sonidos un poquito antes de que ocurran (así no se atrasa)
+      programar() {
+        const d = this.dur();
+        while (this.siguiente < audio.currentTime + 0.12) {
+          const paso = this.paso;
+          const r = Math.max(0, this.siguiente - audio.currentTime);
+          groove(paso, r, this.capas, d);
+          if (this.conRejilla) {
+            Rejilla.bloques.filter(b => b.c === paso).forEach(b => tocar(NOTAS[b.r].frecuencia, b.len * d * 0.95, r, 'synth', 0.4));
+            setTimeout(() => { if (this.sonando) Rejilla.escanear(paso); }, r * 1000);
+          }
+          this.paso = (paso + 1) % 8;
+          this.siguiente += d;
+        }
+      },
+    };
+
+    /* =============================================================
+       REJILLA: 5 filas (Do abajo … Sol arriba) x 8 columnas de tiempo
+       ============================================================= */
+    const Rejilla = {
+      area: null, escaner: null, cont: null, bloques: [], extras: [], pincel: 1, bloqueado: false, alCambiar: null,
+      montar(cont, alCambiar) {
+        this.cont = cont; this.alCambiar = alCambiar; this.bloques = []; this.extras = []; this.bloqueado = false;
+        const pinceles = [[1, '▪ Corta', '1 espacio'], [2, '▬ Larga', '2 espacios'], [4, '━━ Muy larga', '4 espacios']];
+        cont.innerHTML = `
+          <div class="flex justify-center gap-1.5 sm:gap-2 mb-3">${pinceles.map(([l, t, d]) =>
+            `<button class="pincel boton-control orbitron rounded-full px-2.5 sm:px-3 py-1.5 text-[11px] sm:text-sm font-bold text-cyan-100" data-len="${l}">${t} <span class="hidden sm:inline opacity-70 font-sans">(${d})</span></button>`).join('')}</div>
+          <div class="rejilla">
+            <div class="etiquetas">${[...NOTAS].reverse().map(n => `<div style="background:${n.color}">${n.nombre}</div>`).join('')}</div>
+            <div class="area" role="grid" aria-label="Rejilla de notas: filas de Do a Sol, columnas de tiempo"><div class="escaner"></div></div>
+          </div>
+          <div class="flex justify-between orbitron text-[10px] text-cyan-300 mt-1" style="padding-left:52px"><span>TIEMPO ➜</span><span>⬆ AGUDO · ⬇ GRAVE</span></div>`;
+        this.area = cont.querySelector('.area');
+        this.escaner = cont.querySelector('.escaner');
+        cont.querySelectorAll('.pincel').forEach(b => b.addEventListener('click', () => { this.pincel = Number(b.dataset.len); this.pintarPinceles(); }));
+        this.pintarPinceles();
+        this.area.addEventListener('pointerdown', (e) => {
+          e.preventDefault();
+          if (this.bloqueado) return;
+          const r = this.area.getBoundingClientRect();
+          const col = Math.min(7, Math.max(0, Math.floor((e.clientX - r.left) / r.width * 8)));
+          const fila = 4 - Math.min(4, Math.max(0, Math.floor((e.clientY - r.top) / r.height * 5)));
+          this.tocarCelda(fila, col);
+        });
+        this.dibujar();
+      },
+      pintarPinceles() {
+        this.cont.querySelectorAll('.pincel').forEach(b => b.classList.toggle('activo', Number(b.dataset.len) === this.pincel));
+      },
+      // Poner o quitar un bloque
+      tocarCelda(fila, col) {
+        const i = this.bloques.findIndex(b => b.r === fila && col >= b.c && col < b.c + b.len);
+        if (i >= 0) {
+          this.bloques.splice(i, 1);
+        } else {
+          const len = Math.min(this.pincel, 8 - col);
+          this.bloques = this.bloques.filter(b => !(b.r === fila && b.c < col + len && col < b.c + b.len));
+          this.bloques.push({ r: fila, c: col, len });
+          if (!Motor.sonando) tocar(NOTAS[fila].frecuencia, 0.35, 0, 'synth', 0.35);
+        }
+        this.bloques.forEach(b => { delete b.mal; });
+        this.dibujar();
+        if (this.alCambiar) this.alCambiar(this.bloques);
+      },
+      dibujar() {
+        if (!this.area) return;
+        this.area.querySelectorAll('.bloque-nota').forEach(x => x.remove());
+        const poner = (b, clase) => {
+          const d = document.createElement('div');
+          d.className = 'bloque-nota ' + clase;
+          d.style.setProperty('--c', NOTAS[b.r].color);
+          d.style.left = `${b.c * 12.5}%`;
+          d.style.width = `calc(${b.len * 12.5}% - 6px)`;
+          if (clase === 'pista-tiempo') { d.style.top = '0'; d.style.height = 'calc(100% - 6px)'; }
+          else { d.style.top = `${(4 - b.r) * 20}%`; d.style.height = 'calc(20% - 6px)'; }
+          d.dataset.c = b.c;
+          this.area.appendChild(d);
+        };
+        this.extras.forEach(b => poner(b, b.tipo));
+        this.bloques.forEach(b => poner(b, b.mal ? 'mal' : ''));
+      },
+      escanear(paso, enemigo = false) {
+        if (!this.escaner) return;
+        this.escaner.style.display = 'block';
+        this.escaner.style.left = `${paso * 12.5}%`;
+        this.escaner.classList.toggle('enemigo', enemigo);
+        if (!enemigo) {
+          this.area.querySelectorAll(`.bloque-nota[data-c="${paso}"]:not(.pista-tiempo):not(.solucion)`).forEach(el => {
+            el.classList.add('brilla');
+            setTimeout(() => el.classList.remove('brilla'), 160);
+          });
+        }
+      },
+      ocultarEscaner() { if (this.escaner) this.escaner.style.display = 'none'; },
+    };
+
+    /* =============================================================
+       CONSTRUCTOR DE BEATS: la nave enemiga toca un patrón y el
+       jugador lo "escribe" en la rejilla para devolver el ataque
+       ============================================================= */
+    const BEATS = { patron: [], intento: 1, respondida: false, inicio: 0, timers: [] };
+    function limpiarTimersBeats() { BEATS.timers.forEach(clearTimeout); BEATS.timers = []; }
+    const clave = (b) => `${b.r}:${b.c}:${b.len}`;
+
+    function generarPatron(nv) {
+      if (nv === 0) {          // Do, Mi o Sol · 3 notas largas en columnas fijas
+        let p;
+        do { p = [0, 2, 4].map(c => ({ r: azar([0, 2, 4]), c, len: 2 })); } while (new Set(p.map(b => b.r)).size < 2);
+        return p;
+      }
+      if (nv === 1) {          // las 5 notas · 4 notas largas en columnas fijas
+        let p;
+        do { p = [0, 2, 4, 6].map(c => ({ r: entre(0, 4), c, len: 2 })); } while (new Set(p.map(b => b.r)).size < 3);
+        return p;
+      }
+      // nivel 3: notas y duraciones distintas (cortas, largas y muy largas)
+      const ritmos = [[2, 2, 4], [1, 1, 2, 4], [4, 4], [2, 1, 1, 4], [2, 2, 2, 2], [1, 1, 1, 1, 4], [4, 2, 2], [1, 1, 2, 2, 2]];
+      let c = 0, p;
+      do {
+        c = 0;
+        p = azar(ritmos).map(len => { const b = { r: entre(0, 4), c, len }; c += len; return b; });
+      } while (new Set(p.map(b => b.r)).size < 2);
+      return p;
+    }
+
+    function pintarCapas() {
+      $('b-capas').innerHTML = CAPAS.map((n, i) => `<span class="capa ${i < Motor.capas ? 'on' : ''}">${n}</span>`).join('');
+    }
+    function pintarMarcadorBeats() {
+      $('b-ronda').textContent = ronda + 1;
+      $('b-aciertos').textContent = puntos;
+      $('b-racha').textContent = `🔥${racha}`;
+      $('b-racha').className = 'ml-1 ' + (racha >= 3 ? 'racha-on' : 'text-slate-500');
+      pintarEnergia();
+      pintarCapas();
+    }
+    function estadoBeats(texto, color = 'text-cyan-100') {
+      const e = $('b-estado');
+      e.className = e.className.replace(/text-(cyan|emerald|rose)-\d+/g, '').trim() + ' ' + color;
+      e.textContent = texto;
+    }
+    const nombreDuracion = (len) => len >= 4 ? 'muy larga' : len === 2 ? 'larga' : 'corta';
+
+    function empezarBeats() {
+      mostrar('pantalla-beats');
+      resultados = []; ronda = 0; puntos = 0; racha = 0; puntaje = 0;
+      Motor.capas = 0; Motor.bpm = 110;
+      $('b-nivel').textContent = `NIVEL ${nivel + 1}`;
+      Rejilla.montar($('b-rejilla'), () => { if (!BEATS.respondida) estadoBeats('🎛️ Cuando tu rejilla suene igual que el ataque, ¡devuélvelo!'); });
+      nuevoAtaque();
+    }
+
+    function nuevoAtaque() {
+      limpiarTimersBeats();
+      BEATS.patron = generarPatron(nivel);
+      BEATS.intento = 1;
+      BEATS.respondida = false;
+      Rejilla.bloques = [];
+      // Pista (niveles 1 y 2): columnas marcadas = cuándo empieza y cuánto dura cada nota
+      Rejilla.extras = nivel < 2 ? BEATS.patron.map(b => ({ r: 0, c: b.c, len: b.len, tipo: 'pista-tiempo' })) : [];
+      Rejilla.pincel = nivel < 2 ? 2 : 1;
+      Rejilla.pintarPinceles();
+      Rejilla.dibujar();
+      $('b-pista-texto').textContent = nivel < 2 ? 'PISTA: TODAS DURAN 2 ESPACIOS' : 'SIN PISTAS';
+      $('b-siguiente').classList.add('hidden');
+      $('b-devolver').classList.remove('hidden');
+      pintarMarcadorBeats();
+      pintarPips($('b-pips'), true);
+      ataqueEnemigo();
+    }
+
+    // La nave enemiga toca: primero un Do de referencia y luego el patrón
+    function ataqueEnemigo() {
+      if (BEATS.respondida) return;
+      limpiarTimersBeats();
+      Motor.parar();
+      detener();
+      Rejilla.bloqueado = true;
+      const d = Motor.dur();
+      const ANCLA = 3;                        // pasos que ocupa el Do de referencia + un silencio
+      $('b-enemigo').textContent = '📍 Do de referencia…';
+      estadoBeats('🔊 Escucha el ataque enemigo');
+      tocar(261.6, d * 2 * 0.95, 0.05, 'synth', 0.4);
+      BEATS.patron.forEach(b => tocar(NOTAS[b.r].frecuencia, b.len * d * 0.95, 0.05 + (ANCLA + b.c) * d, 'synth', 0.45));
+      for (let paso = 0; paso < 8; paso++) {
+        BEATS.timers.push(setTimeout(() => {
+          if (paso === 0) $('b-enemigo').textContent = '👾 ¡ATAQUE EN CAMINO!';
+          Rejilla.escanear(paso, true);
+        }, (0.05 + (ANCLA + paso) * d) * 1000));
+      }
+      BEATS.timers.push(setTimeout(() => {
+        Rejilla.ocultarEscaner();
+        Rejilla.bloqueado = false;
+        $('b-enemigo').textContent = '👉 ¡Tu turno! Escribe el ataque en tu rejilla';
+        estadoBeats(nivel < 2 ? '💡 Toca la fila de cada nota dentro de las columnas marcadas.' : '💡 Elige el largo del bloque arriba y toca la rejilla.');
+        BEATS.inicio = performance.now();
+        Motor.iniciar(true);
+      }, (0.05 + (ANCLA + 8) * d) * 1000 + 150));
+    }
+
+    function devolverAtaque() {
+      if (BEATS.respondida || Rejilla.bloqueado) return;
+      const solucion = new Set(BEATS.patron.map(clave));
+      const mios = Rejilla.bloques.map(clave);
+      const correcto = mios.length === solucion.size && mios.every(k => solucion.has(k));
+      const descripcion = BEATS.patron.map(b => `${NOTAS[b.r].nombre} (${nombreDuracion(b.len)})`).join(' → ');
+
+      if (correcto) {
+        BEATS.respondida = true;
+        resultados[ronda] = true;
+        puntos++;
+        if (BEATS.intento === 1) racha++; else racha = 0;
+        sumarPuntaje((performance.now() - BEATS.inicio) / 1000 / 30);
+        if (racha >= 3) entrarSobrecarga();
+        Motor.capas = Math.min(5, puntos);             // ¡se desbloquea una capa nueva!
+        beepVictoria();
+        Rejilla.bloqueado = true;
+        estadoBeats(`✅ ¡Ataque devuelto! Era ${descripcion}. Nueva capa: ${CAPAS[Motor.capas - 1]}`, 'text-emerald-300');
+        terminarAtaque();
+      } else if (BEATS.intento === 1) {
+        BEATS.intento = 2;
+        racha = 0;
+        salirSobrecarga();
+        Rejilla.bloques.forEach(b => { b.mal = !solucion.has(clave(b)); });
+        Rejilla.dibujar();
+        const faltan = BEATS.patron.filter(b => !mios.includes(clave(b))).length;
+        zumbidoError();
+        sacudir();
+        estadoBeats(`⚠️ Casi. Los bloques en rojo no coinciden${faltan ? ` y faltan ${faltan}` : ''}. Escucha otra vez y corrige. ¡Te queda 1 intento!`, 'text-rose-300');
+        pintarMarcadorBeats();
+      } else {
+        BEATS.respondida = true;
+        resultados[ronda] = false;
+        racha = 0;
+        salirSobrecarga();
+        zumbidoError();
+        sacudir();
+        Rejilla.extras = BEATS.patron.map(b => ({ ...b, tipo: 'solucion' }));
+        Rejilla.bloques.forEach(b => { b.mal = !solucion.has(clave(b)); });
+        Rejilla.dibujar();
+        Rejilla.bloqueado = true;
+        estadoBeats(`☄️ El ataque te alcanzó. Era ${descripcion} (marcado en verde).`, 'text-rose-300');
+        terminarAtaque();
+      }
+    }
+
+    function terminarAtaque() {
+      pintarMarcadorBeats();
+      pintarPips($('b-pips'), false);
+      $('b-devolver').classList.add('hidden');
+      const sig = $('b-siguiente');
+      sig.textContent = ronda + 1 < 5 ? 'Siguiente ataque ➡' : '🏁 Ver resultados';
+      sig.classList.remove('hidden');
+    }
+
+    function siguienteAtaque() {
+      ronda++;
+      if (ronda < 5) nuevoAtaque();
+      else terminarNivel();
+    }
+
+    /* ---------- Pad de DJ (pantalla final del planeta de beats) ---------- */
+    function crearPadsDj() {
+      $('dj-pads').innerHTML = NOTAS.map((n, i) =>
+        `<button class="pad cristal orbitron rounded-2xl py-4 sm:py-6 text-base sm:text-2xl font-black text-white" style="--c:${n.color}" data-i="${i}">${n.nombre}<span class="block text-[10px] font-sans opacity-70">${i + 1}</span></button>`).join('');
+      $('dj-pads').querySelectorAll('.pad').forEach(b => b.addEventListener('pointerdown', (e) => { e.preventDefault(); golpePad(Number(b.dataset.i)); }));
+    }
+    function golpePad(i) {
+      const n = NOTAS[i];
+      tocar(n.frecuencia, 0.5, 0, 'synth', 0.5);
+      tocar(n.frecuencia * 2, 0.3, 0, 'synth', 0.18);
+      const b = $('dj-pads').children[i];
+      b.classList.add('golpe');
+      setTimeout(() => b.classList.remove('golpe'), 120);
+    }
+    crearPadsDj();
+
+    /* ---------- Estudio libre ---------- */
+    function abrirEstudio() {
+      mostrar('pantalla-estudio');
+      Rejilla.montar($('estudio-rejilla'), null);
+      Rejilla.pincel = 2; Rejilla.pintarPinceles();
+      Motor.capas = Number($('estudio-capas').value);
+      Motor.bpm = 110;
+      Motor.iniciar(true);
+    }
+
+    /* =============================================================
+       LLUVIA DE METEOROS: las notas caen por 5 carriles y hay que
+       tocarlas cuando llegan a la línea de luz
+       ============================================================= */
+    // Canciones de dominio público que solo usan Do, Re, Mi, Fa y Sol. [nota, tiempos]
+    const CANCIONES = [
+      { id: 'martinillo', nombre: 'Martinillo', autor: 'Canción tradicional', dificultad: '⭐ Fácil', bpm: 92,
+        notas: [['Do', 1], ['Re', 1], ['Mi', 1], ['Do', 1], ['Do', 1], ['Re', 1], ['Mi', 1], ['Do', 1], ['Mi', 1], ['Fa', 1], ['Sol', 2], ['Mi', 1], ['Fa', 1], ['Sol', 2]] },
+      { id: 'corderito', nombre: 'María tenía un corderito', autor: 'Canción tradicional', dificultad: '⭐ Fácil', bpm: 100,
+        notas: [['Mi', 1], ['Re', 1], ['Do', 1], ['Re', 1], ['Mi', 1], ['Mi', 1], ['Mi', 2], ['Re', 1], ['Re', 1], ['Re', 2], ['Mi', 1], ['Sol', 1], ['Sol', 2],
+                ['Mi', 1], ['Re', 1], ['Do', 1], ['Re', 1], ['Mi', 1], ['Mi', 1], ['Mi', 1], ['Mi', 1], ['Re', 1], ['Re', 1], ['Mi', 1], ['Re', 1], ['Do', 4]] },
+      { id: 'oda', nombre: 'Himno a la alegría', autor: 'Ludwig van Beethoven', dificultad: '⭐⭐ Medio', bpm: 108,
+        notas: [['Mi', 1], ['Mi', 1], ['Fa', 1], ['Sol', 1], ['Sol', 1], ['Fa', 1], ['Mi', 1], ['Re', 1], ['Do', 1], ['Do', 1], ['Re', 1], ['Mi', 1], ['Mi', 1.5], ['Re', 0.5], ['Re', 2],
+                ['Mi', 1], ['Mi', 1], ['Fa', 1], ['Sol', 1], ['Sol', 1], ['Fa', 1], ['Mi', 1], ['Re', 1], ['Do', 1], ['Do', 1], ['Re', 1], ['Mi', 1], ['Re', 1.5], ['Do', 0.5], ['Do', 2]] },
+      { id: 'cascabel', nombre: 'Cascabel', autor: 'Canción tradicional', dificultad: '⭐⭐⭐ Difícil', bpm: 120,
+        notas: [['Mi', 1], ['Mi', 1], ['Mi', 2], ['Mi', 1], ['Mi', 1], ['Mi', 2], ['Mi', 1], ['Sol', 1], ['Do', 1.5], ['Re', 0.5], ['Mi', 4],
+                ['Fa', 1], ['Fa', 1], ['Fa', 1.5], ['Fa', 0.5], ['Fa', 1], ['Mi', 1], ['Mi', 1], ['Mi', 0.5], ['Mi', 0.5], ['Mi', 1], ['Re', 1], ['Re', 1], ['Mi', 1], ['Re', 2], ['Sol', 2]] },
+    ];
+    // Canción original compuesta para este juego, con ambiente espacial (acordes de órgano de fondo)
+    CANCIONES.push({ id: 'horizonte', nombre: 'Más allá del horizonte', autor: 'Original de Misión Musical Espacial', dificultad: '⭐⭐ Medio', bpm: 84, ambiente: true,
+      notas: [['Do', 2], ['Mi', 1], ['Sol', 1], ['Fa', 2], ['Mi', 2], ['Re', 1], ['Mi', 1], ['Fa', 1], ['Sol', 1], ['Mi', 4],
+              ['Do', 2], ['Mi', 1], ['Sol', 1], ['Sol', 2], ['Fa', 1], ['Mi', 1], ['Re', 2], ['Fa', 2], ['Mi', 2], ['Re', 1], ['Re', 1], ['Do', 4]] });
+    // Acordes de órgano que suenan de fondo en la canción espacial (uno por compás de 4 tiempos)
+    const ACORDES_ESPACIO = [[130.8, 164.8, 196.0], [110.0, 130.8, 164.8], [87.3, 110.0, 130.8], [98.0, 123.5, 146.8]];   // Do, La menor, Fa, Sol
+    function acordeOrgano(retraso, frecuencias, dur) {
+      frecuencias.forEach(f => { tocar(f, dur, retraso, 'sine', 0.16); tocar(f * 2, dur, retraso, 'sine', 0.07); tocar(f, dur, retraso, 'synth', 0.05); });
+    }
+    const ESPERA_INICIAL = 2.4;          // segundos antes de la primera nota (cuenta regresiva)
+    const VENTANA_PERFECTO = 0.08;       // margen para "¡Perfecto!" (segundos)
+    const VENTANA_BIEN = 0.2;            // margen para "Bien"
+    const TECLAS_MET = { a: 0, s: 1, d: 2, f: 3, g: 4, '1': 0, '2': 1, '3': 2, '4': 3, '5': 4 };
+    const MET = { modo: 'practica', cancion: null, notas: [], tiempo: 0, activo: false, cuadro: 0, ultimo: 0, inicioAudio: 0,
+                  combo: 0, comboMax: 0, puntaje: 0, perfectos: 0, bien: 0, fallos: 0, efectos: [], esperandoDesde: 0 };
+    const lienzoMet = $('met-canvas');
+    const ctxMet = lienzoMet.getContext('2d');
+
+    function abrirMeteoros() {
+      mostrar('pantalla-meteoros');
+      iniciarAudio();
+      $('met-menu').classList.remove('hidden');
+      $('met-juego').classList.add('hidden');
+      $('met-final').classList.add('hidden');
+      document.querySelectorAll('.modo-met').forEach(b => b.classList.toggle('activo', b.dataset.modo === MET.modo));
+      const mejores = progreso.meteoros || {};
+      $('met-canciones').innerHTML = CANCIONES.map((c, i) => `
+        <button class="planeta-btn rounded-2xl p-3 text-left" style="--c1:${NOTAS[i % 5].color}" data-i="${i}">
+          <span class="block orbitron font-black text-white text-base sm:text-lg">🎵 ${c.nombre}</span>
+          <span class="block text-xs sm:text-sm text-slate-300 font-bold">${c.autor} · ${c.dificultad} · ${c.notas.length} notas</span>
+          <span class="block text-lg mt-1">${mejores[c.id] ? estrellasTexto(mejores[c.id]) : '<span class="text-sm text-cyan-300 font-bold">¡Sin jugar todavía!</span>'}</span>
+        </button>`).join('');
+      $('met-canciones').querySelectorAll('[data-i]').forEach(b => b.addEventListener('click', () => empezarMeteoros(CANCIONES[Number(b.dataset.i)])));
+    }
+
+    // Crea los 5 botones de carril (pads)
+    function crearPadsMet() {
+      const letras = ['A', 'S', 'D', 'F', 'G'];
+      $('met-pads').innerHTML = NOTAS.map((n, i) => `
+        <button class="met-pad cristal orbitron rounded-2xl py-3 sm:py-4 font-black text-white text-sm sm:text-xl" style="--c:${n.color}" data-i="${i}">
+          <span class="relative">${n.nombre}</span><span class="relative block text-[10px] font-sans opacity-70">${letras[i]}</span>
+        </button>`).join('');
+      $('met-pads').querySelectorAll('.met-pad').forEach(b => b.addEventListener('pointerdown', (e) => { e.preventDefault(); golpeMet(Number(b.dataset.i)); }));
+    }
+    crearPadsMet();
+
+    function empezarMeteoros(cancion) {
+      pararMeteoros();
+      detener();
+      salirSobrecarga();
+      iniciarAudio();
+      MET.cancion = cancion;
+      const pulso = 60 / cancion.bpm;
+      let t = ESPERA_INICIAL;
+      MET.notas = cancion.notas.map(([nombre, tiempos]) => {
+        const n = { carril: NOTAS.findIndex(x => x.nombre === nombre), t, dur: tiempos * pulso, golpeada: false, perdida: false };
+        t += tiempos * pulso;
+        return n;
+      });
+      MET.fin = t + 1.2;
+      Object.assign(MET, { tiempo: 0, combo: 0, comboMax: 0, puntaje: 0, perfectos: 0, bien: 0, fallos: 0, efectos: [], esperandoDesde: 0, activo: true });
+      MET.nombres = $('met-nombres').checked;
+      $('met-menu').classList.add('hidden');
+      $('met-final').classList.add('hidden');
+      $('met-juego').classList.remove('hidden');
+      $('met-titulo').textContent = `🎵 ${cancion.nombre}`;
+      $('met-modo-txt').textContent = MET.modo === 'practica' ? '🐢 PRÁCTICA' : '🔥 DESAFÍO';
+      pintarMarcadorMet();
+      // En desafío: el reloj es el del audio y suena el metrónomo con bombo en cada compás
+      if (MET.modo === 'desafio') {
+        MET.inicioAudio = audio.currentTime + 0.1;
+        const total = Math.ceil((t - ESPERA_INICIAL) / pulso);
+        for (let k = -4; k <= total; k++) {
+          const cuando = ESPERA_INICIAL + k * pulso;
+          if (cuando < 0) continue;
+          if (cancion.ambiente) {
+            // canción espacial: acordes largos de órgano en vez de batería, y un pulso muy suave
+            if (k < 0 || k % 4 === 0) clic(0.1 + cuando, k % 4 === 0);
+            if (k >= 0 && k % 4 === 0) acordeOrgano(0.1 + cuando, ACORDES_ESPACIO[(k / 4) % 4], pulso * 4 * 0.98);
+          } else {
+            clic(0.1 + cuando, k % 4 === 0);
+            if (k >= 0 && k % 4 === 0) bombo(0.1 + cuando);
+          }
+        }
+      }
+      MET.ultimo = performance.now();
+      MET.cuadro = requestAnimationFrame(cicloMet);
+      window.scrollTo({ top: $('met-juego').getBoundingClientRect().top + window.scrollY - 10 });
+    }
+
+    function pararMeteoros() {
+      cancelAnimationFrame(MET.cuadro);
+      MET.activo = false;
+    }
+
+    function pintarMarcadorMet() {
+      $('met-puntaje').textContent = MET.puntaje;
+      $('met-combo').textContent = MET.combo;
+      const hechas = MET.notas.filter(n => n.golpeada || n.perdida).length;
+      $('met-progreso').style.width = (MET.notas.length ? hechas / MET.notas.length * 100 : 0) + '%';
+    }
+
+    function efectoTexto(texto, color, carril) {
+      MET.efectos.push({ tipo: 'texto', texto, color, carril, vida: 1 });
+    }
+    function chispas(carril, color) {
+      for (let i = 0; i < 14; i++) MET.efectos.push({ tipo: 'chispa', carril, color, vida: 1, dx: (Math.random() - 0.5) * 240, dy: -Math.random() * 260 });
+    }
+
+    // Ciclo de animación (unas 60 veces por segundo)
+    function cicloMet(ahora) {
+      const dt = Math.min(0.05, (ahora - MET.ultimo) / 1000);
+      MET.ultimo = ahora;
+      if (MET.modo === 'desafio') {
+        MET.tiempo = audio.currentTime - MET.inicioAudio;
+        // las notas que pasaron la línea sin tocarse se pierden
+        MET.notas.forEach(n => {
+          if (!n.golpeada && !n.perdida && MET.tiempo > n.t + VENTANA_BIEN) {
+            n.perdida = true;
+            MET.fallos++;
+            MET.combo = 0;
+            salirSobrecarga();
+            efectoTexto('Fallo', '#ff3355', n.carril);
+            pintarMarcadorMet();
+          }
+        });
+      } else {
+        // práctica: el tiempo avanza, pero se detiene en la próxima nota hasta que la toques
+        const pendiente = MET.notas.find(n => !n.golpeada);
+        let nuevo = MET.tiempo + dt;
+        if (pendiente && nuevo >= pendiente.t) {
+          nuevo = pendiente.t;
+          if (!MET.esperandoDesde) MET.esperandoDesde = ahora;
+        } else MET.esperandoDesde = 0;
+        MET.tiempo = nuevo;
+      }
+      dibujarMet(dt, ahora);
+      if (MET.notas.every(n => n.golpeada || n.perdida) && MET.tiempo > MET.fin - 0.6) return terminarMeteoros();
+      MET.cuadro = requestAnimationFrame(cicloMet);
+    }
+
+    function dibujarMet(dt, ahora) {
+      const dpr = window.devicePixelRatio || 1;
+      const W = lienzoMet.clientWidth, H = lienzoMet.clientHeight;
+      if (lienzoMet.width !== Math.round(W * dpr)) { lienzoMet.width = Math.round(W * dpr); lienzoMet.height = Math.round(H * dpr); }
+      const c = ctxMet;
+      c.setTransform(dpr, 0, 0, dpr, 0, 0);
+      c.clearRect(0, 0, W, H);
+      const ancho = W / 5;
+      const lineaY = H - 46;
+      const velocidad = MET.modo === 'practica' ? 150 : 240;     // píxeles por segundo
+      const xCarril = (i) => i * ancho + ancho / 2;
+
+      // carriles
+      NOTAS.forEach((n, i) => {
+        c.fillStyle = n.color + '14';
+        c.fillRect(i * ancho, 0, ancho, H);
+        c.strokeStyle = 'rgba(148,163,184,.15)';
+        c.beginPath(); c.moveTo(i * ancho, 0); c.lineTo(i * ancho, H); c.stroke();
+      });
+      // pista en práctica: si llevas 2,5 s esperando, se ilumina el carril correcto
+      const pendiente = MET.notas.find(n => !n.golpeada && !n.perdida);
+      if (MET.modo === 'practica' && pendiente && MET.esperandoDesde && ahora - MET.esperandoDesde > 2500) {
+        c.fillStyle = NOTAS[pendiente.carril].color + '40';
+        c.fillRect(pendiente.carril * ancho, 0, ancho, H);
+      }
+      // línea de luz
+      c.shadowColor = '#22d3ee'; c.shadowBlur = 16;
+      c.fillStyle = '#67e8f9';
+      c.fillRect(0, lineaY - 2, W, 4);
+      c.shadowBlur = 0;
+      NOTAS.forEach((n, i) => {
+        c.strokeStyle = n.color; c.lineWidth = 3;
+        c.beginPath(); c.arc(xCarril(i), lineaY, Math.min(22, ancho * 0.32), 0, Math.PI * 2); c.stroke();
+        c.fillStyle = 'rgba(255,255,255,.75)'; c.font = '900 11px Orbitron, sans-serif'; c.textAlign = 'center';
+        c.fillText(n.nombre, xCarril(i), H - 10);
+      });
+
+      // meteoros (de la nota más lejana a la más cercana)
+      for (let k = MET.notas.length - 1; k >= 0; k--) {
+        const n = MET.notas[k];
+        if (n.golpeada) continue;
+        const y = lineaY - (n.t - MET.tiempo) * velocidad;
+        const cola = n.dur * velocidad;
+        if (y < -40 || y - cola > H) continue;
+        const color = n.perdida ? '#64748b' : NOTAS[n.carril].color;
+        const x = xCarril(n.carril);
+        // cola = duración de la nota
+        c.fillStyle = color + (n.perdida ? '40' : '66');
+        const anchoCola = ancho * 0.22;
+        c.beginPath(); c.roundRect(x - anchoCola / 2, y - cola + 14, anchoCola, Math.max(0, cola - 14), 6); c.fill();
+        // cabeza del meteoro
+        const anchoCabeza = ancho * 0.72;
+        c.shadowColor = color; c.shadowBlur = n.perdida ? 0 : 18;
+        c.fillStyle = color;
+        c.beginPath(); c.roundRect(x - anchoCabeza / 2, y - 15, anchoCabeza, 30, 12); c.fill();
+        c.shadowBlur = 0;
+        c.fillStyle = 'rgba(255,255,255,.45)';
+        c.beginPath(); c.roundRect(x - anchoCabeza / 2 + 5, y - 12, anchoCabeza - 10, 7, 4); c.fill();
+        if (MET.nombres) {
+          c.fillStyle = '#0b1033'; c.font = '900 14px Orbitron, sans-serif'; c.textAlign = 'center'; c.textBaseline = 'middle';
+          c.fillText(NOTAS[n.carril].nombre, x, y + 2);
+          c.textBaseline = 'alphabetic';
+        }
+      }
+
+      // cuenta regresiva
+      if (MET.tiempo < ESPERA_INICIAL && MET.notas.length) {
+        const falta = Math.ceil(ESPERA_INICIAL - MET.tiempo - 0.4);
+        c.fillStyle = '#fff'; c.font = '900 64px Orbitron, sans-serif'; c.textAlign = 'center';
+        c.shadowColor = '#22d3ee'; c.shadowBlur = 25;
+        c.fillText(falta > 0 ? String(falta) : '¡YA!', W / 2, H / 2);
+        c.shadowBlur = 0;
+      }
+      // mensaje de espera en práctica
+      if (MET.modo === 'practica' && MET.esperandoDesde && pendiente) {
+        c.fillStyle = 'rgba(224,247,255,.9)'; c.font = '800 15px Nunito, sans-serif'; c.textAlign = 'center';
+        c.fillText(MET.nombres ? `Toca ${NOTAS[pendiente.carril].nombre}` : '¿Qué nota sigue?', W / 2, 26);
+      }
+
+      // efectos: textos y chispas
+      MET.efectos.forEach(e => {
+        e.vida -= dt * 1.4;
+        if (e.tipo === 'texto') {
+          c.globalAlpha = Math.max(0, e.vida);
+          c.fillStyle = e.color; c.font = '900 16px Orbitron, sans-serif'; c.textAlign = 'center';
+          c.fillText(e.texto, xCarril(e.carril), lineaY - 50 - (1 - e.vida) * 40);
+        } else {
+          e.dy += 600 * dt;
+          e.x = (e.x ?? xCarril(e.carril)) + e.dx * dt;
+          e.y = (e.y ?? lineaY) + e.dy * dt;
+          c.globalAlpha = Math.max(0, e.vida);
+          c.fillStyle = e.color;
+          c.fillRect(e.x, e.y, 4, 4);
+        }
+        c.globalAlpha = 1;
+      });
+      MET.efectos = MET.efectos.filter(e => e.vida > 0);
+    }
+
+    // El jugador toca un carril
+    function golpeMet(i) {
+      const pad = $('met-pads').children[i];
+      pad.classList.add('golpe');
+      setTimeout(() => pad.classList.remove('golpe'), 110);
+      if (!MET.activo) { tocar(NOTAS[i].frecuencia, 0.3, 0, 'synth', 0.35); return; }
+
+      if (MET.modo === 'practica') {
+        const pendiente = MET.notas.find(n => !n.golpeada);
+        if (!pendiente) return;
+        const cerca = pendiente.t - MET.tiempo <= VENTANA_BIEN;
+        if (!cerca) { tocar(NOTAS[i].frecuencia, 0.25, 0, 'synth', 0.25); return; }
+        if (pendiente.carril === i) {
+          pendiente.golpeada = true;
+          tocar(NOTAS[i].frecuencia, pendiente.dur * 0.95, 0, 'synth', 0.45);
+          MET.perfectos++;
+          MET.combo++; MET.comboMax = Math.max(MET.comboMax, MET.combo);
+          MET.puntaje += 100;
+          chispas(i, NOTAS[i].color);
+          efectoTexto('¡Bien!', '#3dff9a', i);
+          MET.esperandoDesde = 0;
+        } else {
+          MET.fallos++;
+          MET.combo = 0;
+          tocar(NOTAS[i].frecuencia, 0.25, 0, 'synth', 0.25);
+          pad.classList.remove('error'); void pad.offsetWidth; pad.classList.add('error');
+          efectoTexto(`Esa es ${NOTAS[i].nombre}`, '#ff3355', i);
+        }
+        pintarMarcadorMet();
+        return;
+      }
+
+      // Desafío: la nota más cercana de ese carril dentro del margen
+      let mejor = null, distancia = VENTANA_BIEN;
+      MET.notas.forEach(n => {
+        if (n.carril !== i || n.golpeada || n.perdida) return;
+        const d = Math.abs(n.t - MET.tiempo);
+        if (d <= distancia) { mejor = n; distancia = d; }
+      });
+      if (!mejor) { tocar(NOTAS[i].frecuencia, 0.2, 0, 'synth', 0.2); return; }
+      mejor.golpeada = true;
+      tocar(NOTAS[i].frecuencia, mejor.dur * 0.95, 0, 'synth', 0.45);
+      const perfecto = distancia <= VENTANA_PERFECTO;
+      if (perfecto) MET.perfectos++; else MET.bien++;
+      MET.combo++; MET.comboMax = Math.max(MET.comboMax, MET.combo);
+      if (MET.combo >= 10) entrarSobrecarga();
+      MET.puntaje += (perfecto ? 300 : 100) * (enSobrecarga() ? 2 : 1);
+      chispas(i, NOTAS[i].color);
+      efectoTexto(perfecto ? '¡Perfecto!' : 'Bien', perfecto ? '#3dff9a' : '#67e8f9', i);
+      pintarMarcadorMet();
+    }
+
+    function terminarMeteoros() {
+      pararMeteoros();
+      salirSobrecarga();
+      const total = MET.notas.length;
+      let precision, estrellas, mensaje;
+      if (MET.modo === 'practica') {
+        precision = Math.round(total / (total + MET.fallos) * 100);
+        estrellas = MET.fallos === 0 ? 3 : MET.fallos <= 3 ? 2 : 1;
+        mensaje = MET.fallos === 0
+          ? `¡Tocaste "${MET.cancion.nombre}" sin equivocarte! 🎉 Ahora prueba el modo 🔥 Desafío, o quita los nombres de los meteoros para tocarla de memoria.`
+          : `¡Terminaste la canción! Te equivocaste ${MET.fallos} ${MET.fallos === 1 ? 'vez' : 'veces'}. Practícala otra vez hasta que no necesites ver los nombres.`;
+      } else {
+        precision = Math.round((MET.perfectos + MET.bien * 0.6) / total * 100);
+        estrellas = precision >= 90 ? 3 : precision >= 70 ? 2 : precision >= 50 ? 1 : 0;
+        mensaje = estrellas === 3 ? `¡Increíble! Tocaste "${MET.cancion.nombre}" como un músico profesional. 🏆`
+          : estrellas >= 1 ? '¡Bien hecho! Escucha el pulso del metrónomo y toca justo cuando el meteoro toque la línea.'
+          : 'Los meteoros van rápido. Practica primero en modo 🐢 Práctica y luego vuelve al Desafío.';
+      }
+      progreso.meteoros = progreso.meteoros || {};
+      const antes = progreso.meteoros[MET.cancion.id] || 0;
+      if (estrellas > antes) { progreso.meteoros[MET.cancion.id] = estrellas; guardarProgreso(); }
+      $('met-final-cancion').textContent = `✦ ${MET.cancion.nombre.toUpperCase()} · ${MET.modo === 'practica' ? 'PRÁCTICA' : 'DESAFÍO'} ✦`;
+      $('met-final-precision').textContent = precision;
+      $('met-final-estrellas').textContent = estrellasTexto(estrellas);
+      $('met-final-insignia').textContent = estrellas === 3 ? '👑' : estrellas === 2 ? '🌟' : estrellas === 1 ? '🚀' : '🧑‍🚀';
+      $('met-f-perfectos').textContent = MET.perfectos;
+      $('met-f-bien').textContent = MET.bien;
+      $('met-f-fallos').textContent = MET.fallos;
+      $('met-f-combo').textContent = MET.comboMax;
+      $('met-f-puntaje').textContent = MET.puntaje;
+      $('met-f-zum').innerHTML = `<b class="text-emerald-300">Zum:</b> ${mensaje}`;
+      $('met-juego').classList.add('hidden');
+      $('met-final').classList.remove('hidden');
+      window.scrollTo({ top: 0 });
+      if (estrellas >= 2) { fanfarria(); confeti(); }
+    }
+
+    /* =============================================================
+       BOTONES Y TECLADO
+       ============================================================= */
+    document.querySelectorAll('.modo-met').forEach(b => b.addEventListener('click', () => {
+      MET.modo = b.dataset.modo;
+      document.querySelectorAll('.modo-met').forEach(x => x.classList.toggle('activo', x === b));
+    }));
+    $('met-mapa').addEventListener('click', abrirMapa);
+    $('met-salir').addEventListener('click', () => { pararMeteoros(); detener(); salirSobrecarga(); abrirMeteoros(); });
+    $('met-otra-vez').addEventListener('click', () => empezarMeteoros(MET.cancion));
+    $('met-otra-cancion').addEventListener('click', abrirMeteoros);
+    document.addEventListener('keydown', (e) => {
+      if ($('pantalla-meteoros').classList.contains('hidden') || $('met-juego').classList.contains('hidden') || e.repeat) return;
+      const i = TECLAS_MET[e.key.toLowerCase()];
+      if (i !== undefined) { e.preventDefault(); golpeMet(i); }
+    });
+    $('b-escuchar').addEventListener('click', ataqueEnemigo);
+    $('b-borrar').addEventListener('click', () => { if (!Rejilla.bloqueado) { Rejilla.bloques = []; Rejilla.dibujar(); } });
+    $('b-devolver').addEventListener('click', devolverAtaque);
+    $('b-siguiente').addEventListener('click', siguienteAtaque);
+    $('btn-estudio').addEventListener('click', abrirEstudio);
+    $('estudio-capas').addEventListener('input', (e) => {
+      Motor.capas = Number(e.target.value);
+      $('estudio-capas-txt').textContent = `${Motor.capas} capa${Motor.capas === 1 ? '' : 's'}`;
+    });
+    $('estudio-borrar').addEventListener('click', () => { Rejilla.bloques = []; Rejilla.dibujar(); });
+    $('estudio-salir').addEventListener('click', () => abrirPlaneta(planeta));
+    document.addEventListener('keydown', (e) => {
+      // Pad de DJ con teclas 1‑5
+      if (!$('pantalla-final').classList.contains('hidden') && !$('dj').classList.contains('hidden')) {
+        const n = Number(e.key);
+        if (n >= 1 && n <= 5) golpePad(n - 1);
+      }
+      // Enter en el constructor de beats
+      if (!$('pantalla-beats').classList.contains('hidden') && e.key === 'Enter') {
+        e.preventDefault();
+        if (BEATS.respondida) siguienteAtaque(); else devolverAtaque();
+      }
+    });
+    /* =============================================================
+       AJUSTES: sonido, modo profesor, reiniciar progreso, cómo jugar
+       y salir de un nivel
+       ============================================================= */
+    // Pregunta con botones "Sí" / "Cancelar" dentro del juego
+    function confirmar(texto, textoSi, alAceptar) {
+      $('modal-texto').textContent = texto;
+      $('modal-si').textContent = textoSi;
+      $('modal').hidden = false;
+      $('modal-no').focus();
+      const cerrar = () => { $('modal').hidden = true; $('modal-si').onclick = null; $('modal-no').onclick = null; };
+      $('modal-si').onclick = () => { cerrar(); alAceptar(); };
+      $('modal-no').onclick = cerrar;
+    }
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('modal').hidden) $('modal-no').click(); });
+
+    function pintarSonido() {
+      const b = $('btn-sonido');
+      b.textContent = silencio ? '🔇' : '🔊';
+      b.setAttribute('aria-label', silencio ? 'Activar el sonido' : 'Silenciar el sonido');
+      b.title = b.getAttribute('aria-label');
+    }
+    $('btn-sonido').addEventListener('click', () => {
+      silencio = !silencio;
+      guardar('silencio', silencio);
+      if (salida) salida.gain.setTargetAtTime(silencio ? 0 : 0.9, audio.currentTime, 0.02);
+      pintarSonido();
+    });
+    pintarSonido();
+
+    // Modo profesor: desbloquea todos los niveles y el estudio libre (para revisar el juego rápido)
+    function pintarProfe() {
+      $('btn-profe').textContent = progreso.profesor ? '🔓 Modo profesor: activado' : '🔒 Modo profesor';
+      $('btn-profe').classList.toggle('activo', !!progreso.profesor);
+      $('badge-profe').classList.toggle('hidden', !progreso.profesor);
+      $('titulo-nave').classList.toggle('sm:inline', !progreso.profesor);
+    }
+    $('btn-profe').addEventListener('click', () => {
+      progreso.profesor = !progreso.profesor;
+      guardarProgreso();
+      pintarProfe();
+      $('txt-ajustes').textContent = progreso.profesor
+        ? '🔓 Todos los niveles y el estudio libre quedaron desbloqueados.'
+        : '🔒 Los niveles vuelven a desbloquearse jugando.';
+    });
+    pintarProfe();
+
+    $('btn-borrar-progreso').addEventListener('click', () => {
+      confirmar('¿Borrar todo el progreso? Se pierden las estrellas, los niveles desbloqueados y los fragmentos de la canción.', '🗑️ Sí, borrar', () => {
+        progreso = {};
+        guardarProgreso();
+        pintarProfe();
+        $('txt-ajustes').textContent = '✅ Progreso borrado. ¡La misión empieza desde cero!';
+      });
+    });
+
+    // Cómo jugar: se puede abrir desde el inicio o desde el mapa, y "Volver" regresa al mismo lugar
+    let volverDesdeAyuda = 'pantalla-inicio';
+    function abrirAyuda(desde) {
+      volverDesdeAyuda = desde;
+      mostrar('pantalla-ayuda');
+    }
+    $('btn-ayuda').addEventListener('click', () => abrirAyuda('pantalla-inicio'));
+    $('btn-ayuda-mapa').addEventListener('click', () => abrirAyuda('pantalla-mapa'));
+    $('btn-ayuda-volver').addEventListener('click', () => (volverDesdeAyuda === 'pantalla-mapa' ? abrirMapa() : mostrar('pantalla-inicio')));
+
+    // Salir de un nivel (asteroides o beats) con confirmación
+    document.querySelectorAll('.btn-salir-nivel').forEach(b => b.addEventListener('click', () => {
+      confirmar('¿Salir del nivel? Se pierde el avance de esta partida.', '⬅ Sí, salir', () => abrirPlaneta(planeta));
+    }));
+
+    $('btn-iniciar').addEventListener('click', () => { iniciarAudio(); abrirMapa(); });
+    $('btn-volver-inicio').addEventListener('click', () => mostrar('pantalla-inicio'));
+    $('btn-escuchar-cancion').addEventListener('click', () => tocarCancion($('fragmentos-mapa')));
+    $('btn-final-historia').addEventListener('click', () => {
+      mostrar('pantalla-historia');
+      pintarFragmentos($('fragmentos-final'));
+      confeti();
+      setTimeout(() => tocarCancion($('fragmentos-final')), 500);
+    });
+    $('btn-tocar-final').addEventListener('click', () => tocarCancion($('fragmentos-final')));
+    $('btn-historia-mapa').addEventListener('click', abrirMapa);
+    $('btn-lab').addEventListener('click', abrirLab);
+    $('btn-planeta-mapa').addEventListener('click', abrirMapa);
+    $('btn-lab-listo').addEventListener('click', () => { nivel = 0; despegar(); });
+    $('btn-lab-salir').addEventListener('click', () => abrirPlaneta(planeta));
+    $('btn-siguiente').addEventListener('click', siguiente);
+    $('btn-repetir').addEventListener('click', () => { detener(); preguntas[ronda].sonar(); });
+    $('btn-pista').addEventListener('click', () => { detener(); preguntas[ronda].pista.fn(); });
+    $('btn-siguiente-nivel').addEventListener('click', () => { nivel++; despegar(); });
+    $('btn-reiniciar').addEventListener('click', despegar);
+    $('btn-final-planeta').addEventListener('click', () => abrirPlaneta(planeta));
+
+    // Teclas 1‑5 para disparar y Enter para continuar
+    document.addEventListener('keydown', (e) => {
+      if ($('pantalla-juego').classList.contains('hidden')) return;
+      const n = Number(e.key);
+      if (n >= 1 && n <= ola.asteroides.length && !respondida) {
+        const a = ola.asteroides[n - 1];
+        disparar(a.op, a.el);
+      } else if (e.key === 'Enter' && respondida && !$('btn-siguiente').classList.contains('hidden')) {
+        e.preventDefault();
+        siguiente();
+      }
+    });
+  </script>
+
+</body></html>
